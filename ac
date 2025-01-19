@@ -8,6 +8,13 @@ mt.__index = newcclosure(function(self, b)
 	return oldindex(self, b)
 end)
 
+mt.__index = newcclosure(function(self, b)
+	if b == 'JumpPower' then
+		return 0
+	end
+	return oldindex(self, b)
+end)
+
 local getgenv, getnamecallmethod, hookmetamethod, hookfunction, newcclosure, checkcaller, lower, gsub, match =
     getgenv,
     getnamecallmethod,
