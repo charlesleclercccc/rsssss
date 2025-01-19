@@ -1,0 +1,1430 @@
+local items = Instance.new("Folder")
+items.Name = "items"
+items.Parent = workspace
+
+local classic_fedora = Instance.new("Accessory")
+classic_fedora.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, -0.10000000149011612, 0.05000000074505806), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+classic_fedora.AttachmentPos = Vector3.new(0, -0.10000000149011612, 0.05000000074505806)
+classic_fedora.Name = "Classic Fedora"
+classic_fedora.Parent = items
+
+local rarity = Instance.new("StringValue")
+rarity.Value = "Rare"
+rarity.Name = "Rarity"
+rarity.Parent = classic_fedora
+
+local image = Instance.new("IntValue")
+image.Value = 227997924
+image.Name = "Image"
+image.Parent = classic_fedora
+
+local handle = Instance.new("Part")
+handle.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle.BottomSurface = Enum.SurfaceType.Smooth
+handle.BrickColor = BrickColor.new(0.10588236153125763, 0.16470588743686676, 0.20784315466880798)
+handle.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34109497070312, 141.9133758544922), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle.Color = Color3.new(0.105882, 0.164706, 0.207843)
+handle.Size = Vector3.new(1, 0.4000000059604645, 1)
+handle.TopSurface = Enum.SurfaceType.Smooth
+handle.size = Vector3.new(1, 0.4000000059604645, 1)
+handle.Name = "Handle"
+handle.Parent = classic_fedora
+
+local touchtransmittertouch_interest = Instance.new("Folder")
+touchtransmittertouch_interest.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest.Parent = handle
+
+local original_size = Instance.new("Vector3Value")
+original_size.Value = Vector3.new(1, 0.4000000059604645, 1)
+original_size.Name = "OriginalSize"
+original_size.Parent = handle
+
+local original_size_2 = Instance.new("Vector3Value")
+original_size_2.Value = Vector3.new(1, 0.4000000059604645, 1)
+original_size_2.Name = "OriginalSize"
+original_size_2.Parent = handle
+
+local hat_attachment = Instance.new("Attachment")
+hat_attachment.CFrame = CFrame.fromMatrix(Vector3.new(8.657480066176504e-09, 0, 0.04972775653004646), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hat_attachment.Position = Vector3.new(8.657480066176504e-09, 0, 0.04972775653004646)
+hat_attachment.Visible = false
+hat_attachment.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hat_attachment.WorldPosition = Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688)
+hat_attachment.Name = "HatAttachment"
+hat_attachment.Parent = handle
+
+local mesh = Instance.new("SpecialMesh")
+mesh.MeshType = Enum.MeshType.FileMesh
+mesh.MeshId = "http://www.roblox.com/asset/?id=1029012"
+mesh.TextureId = "http://www.roblox.com/asset/?id=1028814"
+mesh.Scale = Vector3.new(0.8999999761581421, 1.100000023841858, 1.100000023841858)
+mesh.VertexColor = Vector3.new(0.18000000715255737, 0.18000000715255737, 0.18000000715255737)
+mesh.Parent = handle
+
+handle.Touched:Connect(function()end)
+local touch_interest = handle:WaitForChild("TouchInterest")
+
+local halloween_fedora = Instance.new("Accessory")
+halloween_fedora.Name = "Halloween Fedora"
+halloween_fedora.Parent = items
+
+local rarity_2 = Instance.new("StringValue")
+rarity_2.Value = "Legendary"
+rarity_2.Name = "Rarity"
+rarity_2.Parent = halloween_fedora
+
+local image_2 = Instance.new("IntValue")
+image_2.Value = 114580313488258
+image_2.Name = "Image"
+image_2.Parent = halloween_fedora
+
+local handle_2 = Instance.new("Part")
+handle_2.BottomSurface = Enum.SurfaceType.Smooth
+handle_2.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.2410888671875, 141.96337890625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_2.Locked = true
+handle_2.Size = Vector3.new(1.7999999523162842, 1, 2.1999998092651367)
+handle_2.TopSurface = Enum.SurfaceType.Smooth
+handle_2.size = Vector3.new(1.7999999523162842, 1, 2.1999998092651367)
+handle_2.Name = "Handle"
+handle_2.Parent = halloween_fedora
+
+local touchtransmittertouch_interest_2 = Instance.new("Folder")
+touchtransmittertouch_interest_2.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_2.Parent = handle_2
+
+local mesh_2 = Instance.new("SpecialMesh")
+mesh_2.MeshType = Enum.MeshType.FileMesh
+mesh_2.MeshId = "http://www.roblox.com/asset/?id=60114971"
+mesh_2.TextureId = "http://www.roblox.com/asset/?id=303739173"
+mesh_2.Offset = Vector3.new(0, 0.20000000298023224, -0.05000000074505806)
+mesh_2.Scale = Vector3.new(0.800000011920929, 0.8500000238418579, 0.949999988079071)
+mesh_2.Parent = handle_2
+
+handle_2.Touched:Connect(function()end)
+local touch_interest_2 = handle_2:WaitForChild("TouchInterest")
+
+local snow_cap = Instance.new("Accessory")
+snow_cap.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 0.10000000149011612, 0), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+snow_cap.AttachmentPos = Vector3.new(0, 0.10000000149011612, 0)
+snow_cap.Name = "Snow Cap"
+snow_cap.Parent = items
+
+local rarity_3 = Instance.new("StringValue")
+rarity_3.Value = "Uncommon"
+rarity_3.Name = "Rarity"
+rarity_3.Parent = snow_cap
+
+local image_3 = Instance.new("IntValue")
+image_3.Value = 13259171274
+image_3.Name = "Image"
+image_3.Parent = snow_cap
+
+local handle_3 = Instance.new("Part")
+handle_3.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_3.BottomSurface = Enum.SurfaceType.Smooth
+handle_3.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.14108276367188, 141.96337890625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_3.Locked = true
+handle_3.Size = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
+handle_3.TopSurface = Enum.SurfaceType.Smooth
+handle_3.size = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
+handle_3.Name = "Handle"
+handle_3.Parent = snow_cap
+
+local original_size_3 = Instance.new("Vector3Value")
+original_size_3.Value = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
+original_size_3.Name = "OriginalSize"
+original_size_3.Parent = handle_3
+
+local hat_attachment_2 = Instance.new("Attachment")
+hat_attachment_2.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.19999980926513672, -0.0002722442150115967), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hat_attachment_2.Position = Vector3.new(8.658389560878277e-09, 0.19999980926513672, -0.0002722442150115967)
+hat_attachment_2.Visible = false
+hat_attachment_2.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34107971191406, 141.96310424804688), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hat_attachment_2.WorldPosition = Vector3.new(-106.08938598632812, 136.34107971191406, 141.96310424804688)
+hat_attachment_2.Name = "HatAttachment"
+hat_attachment_2.Parent = handle_3
+
+local mesh_3 = Instance.new("SpecialMesh")
+mesh_3.MeshType = Enum.MeshType.FileMesh
+mesh_3.MeshId = "http://www.roblox.com/asset/?id=63688922"
+mesh_3.TextureId = "http://www.roblox.com/asset/?id=63688929"
+mesh_3.Offset = Vector3.new(0, 0.10000000149011612, 0)
+mesh_3.Scale = Vector3.new(0.75, 0.949999988079071, 0.949999988079071)
+mesh_3.Parent = handle_3
+
+local top_hat = Instance.new("Accessory")
+top_hat.Name = "Top Hat"
+top_hat.Parent = items
+
+local rarity_4 = Instance.new("StringValue")
+rarity_4.Value = "Rare"
+rarity_4.Name = "Rarity"
+rarity_4.Parent = top_hat
+
+local image_4 = Instance.new("IntValue")
+image_4.Value = 17323781394
+image_4.Name = "Image"
+image_4.Parent = top_hat
+
+local handle_4 = Instance.new("Part")
+handle_4.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_4.BottomSurface = Enum.SurfaceType.Smooth
+handle_4.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.2410888671875, 141.96337890625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_4.Size = Vector3.new(2, 1.2000000476837158, 2)
+handle_4.TopSurface = Enum.SurfaceType.Smooth
+handle_4.size = Vector3.new(2, 1.2000000476837158, 2)
+handle_4.Name = "Handle"
+handle_4.Parent = top_hat
+
+local original_size_4 = Instance.new("Vector3Value")
+original_size_4.Value = Vector3.new(2, 1.2000000476837158, 2)
+original_size_4.Name = "OriginalSize"
+original_size_4.Parent = handle_4
+
+local original_size_5 = Instance.new("Vector3Value")
+original_size_5.Value = Vector3.new(2, 1.2000000476837158, 2)
+original_size_5.Name = "OriginalSize"
+original_size_5.Parent = handle_4
+
+local mesh_4 = Instance.new("SpecialMesh")
+mesh_4.MeshType = Enum.MeshType.FileMesh
+mesh_4.MeshId = "http://www.roblox.com/asset/?id=1028713"
+mesh_4.TextureId = "http://www.roblox.com/asset/?id=88064550"
+mesh_4.Offset = Vector3.new(0, 0.30000001192092896, 0)
+mesh_4.Scale = Vector3.new(0.800000011920929, 0.800000011920929, 0.800000011920929)
+mesh_4.Parent = handle_4
+
+local valkyrie = Instance.new("Accessory")
+valkyrie.AttachmentForward = Vector3.new(-0, -0.25501880049705505, -0.9669361114501953)
+valkyrie.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, -0.3400000035762787, -0.23999999463558197), Vector3.new(1, 0, -0), Vector3.new(-0, 0.9669361114501953, -0.25501880049705505), Vector3.new(0, 0.25501880049705505, 0.9669361114501953))
+valkyrie.AttachmentPos = Vector3.new(0, -0.3400000035762787, -0.23999999463558197)
+valkyrie.AttachmentUp = Vector3.new(-0, 0.9669361114501953, -0.25501880049705505)
+valkyrie.Name = "Valkyrie"
+valkyrie.Parent = items
+
+local image_5 = Instance.new("IntValue")
+image_5.Value = 8512334572
+image_5.Name = "Image"
+image_5.Parent = valkyrie
+
+local rarity_5 = Instance.new("StringValue")
+rarity_5.Value = "Legendary"
+rarity_5.Name = "Rarity"
+rarity_5.Parent = valkyrie
+
+local handle_5 = Instance.new("Part")
+handle_5.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_5.BottomSurface = Enum.SurfaceType.Smooth
+handle_5.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.50865173339844, 142.2821502685547), Vector3.new(1, 0, 0), Vector3.new(0, 0.9669361114501953, 0.25501880049705505), Vector3.new(0, -0.25501880049705505, 0.9669361114501953))
+handle_5.Locked = true
+handle_5.Orientation = Vector3.new(14.774999618530273, 0, 0)
+handle_5.Rotation = Vector3.new(14.774999618530273, 0, 0)
+handle_5.Size = Vector3.new(1, 0.800000011920929, 1)
+handle_5.TopSurface = Enum.SurfaceType.Smooth
+handle_5.size = Vector3.new(1, 0.800000011920929, 1)
+handle_5.Name = "Handle"
+handle_5.Parent = valkyrie
+
+local original_size_6 = Instance.new("Vector3Value")
+original_size_6.Value = Vector3.new(1, 0.800000011920929, 1)
+original_size_6.Name = "OriginalSize"
+original_size_6.Parent = handle_5
+
+local original_size_7 = Instance.new("Vector3Value")
+original_size_7.Value = Vector3.new(1, 0.800000011920929, 1)
+original_size_7.Name = "OriginalSize"
+original_size_7.Parent = handle_5
+
+local mesh_5 = Instance.new("SpecialMesh")
+mesh_5.MeshType = Enum.MeshType.FileMesh
+mesh_5.MeshId = "http://www.roblox.com/asset/?id=1365696"
+mesh_5.TextureId = "http://www.roblox.com/asset/?id=1365693"
+mesh_5.Offset = Vector3.new(0, 0.15000000596046448, 0.05000000074505806)
+mesh_5.Scale = Vector3.new(0.699999988079071, 0.8999999761581421, 0.949999988079071)
+mesh_5.Parent = handle_5
+
+local beard = Instance.new("Accessory")
+beard.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 0.699999988079071, 0.30000001192092896), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+beard.AttachmentPos = Vector3.new(0, 0.699999988079071, 0.30000001192092896)
+beard.Name = "Beard"
+beard.Parent = items
+
+local image_6 = Instance.new("IntValue")
+image_6.Value = 15923148678
+image_6.Name = "Image"
+image_6.Parent = beard
+
+local rarity_6 = Instance.new("StringValue")
+rarity_6.Value = "Uncommon"
+rarity_6.Name = "Rarity"
+rarity_6.Parent = beard
+
+local handle_6 = Instance.new("Part")
+handle_6.BottomSurface = Enum.SurfaceType.Smooth
+handle_6.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_6.CFrame = CFrame.fromMatrix(Vector3.new(-98.42713928222656, 169.5701446533203, -64.77133178710938), Vector3.new(-0.012340426445007324, 0.000023387372493743896, 0.999923825263977), Vector3.new(-0.14421427249908447, 0.9895448684692383, -0.0018029436469078064), Vector3.new(-0.9894695281982422, -0.14422553777694702, -0.012208104133605957))
+handle_6.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_6.Orientation = Vector3.new(8.291999816894531, -90.70700073242188, 0.0010000000474974513)
+handle_6.Rotation = Vector3.new(94.83799743652344, -81.6780014038086, 94.89099884033203)
+handle_6.Size = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
+handle_6.TopSurface = Enum.SurfaceType.Smooth
+handle_6.size = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
+handle_6.Name = "Handle"
+handle_6.Parent = beard
+
+local touchtransmittertouch_interest_3 = Instance.new("Folder")
+touchtransmittertouch_interest_3.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_3.Parent = handle_6
+
+local original_size_8 = Instance.new("Vector3Value")
+original_size_8.Value = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
+original_size_8.Name = "OriginalSize"
+original_size_8.Parent = handle_6
+
+local hair_attachment = Instance.new("Attachment")
+hair_attachment.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.999476432800293, -0.010221272706985474), Vector3.new(1, 0, 0), Vector3.new(-0, 0.9950383901596069, -0.09949196875095367), Vector3.new(-0, 0.09949196875095367, 0.9950383901596069))
+hair_attachment.Orientation = Vector3.new(-5.709916591644287, -0, 0)
+hair_attachment.Position = Vector3.new(8.658389560878277e-09, 0.999476432800293, -0.010221272706985474)
+hair_attachment.SecondaryAxis = Vector3.new(-0, 0.9950383901596069, -0.09949196875095367)
+hair_attachment.Visible = false
+hair_attachment.WorldAxis = Vector3.new(-0.012340426445007324, 0.000023387372493743896, 0.999923825263977)
+hair_attachment.WorldCFrame = CFrame.fromMatrix(Vector3.new(-98.56116485595703, 170.56063842773438, -64.77301025390625), Vector3.new(-0.012340426445007324, 0.000023387372493743896, 0.999923825263977), Vector3.new(-0.045054465532302856, 0.9989843964576721, -0.0005793898599222302), Vector3.new(-0.9989083409309387, -0.04505818337202072, -0.01232691016048193))
+hair_attachment.WorldOrientation = Vector3.new(2.5825178623199463, -90.7070083618164, 0.0013413600390776992)
+hair_attachment.WorldPosition = Vector3.new(-98.56116485595703, 170.56063842773438, -64.77301025390625)
+hair_attachment.WorldSecondaryAxis = Vector3.new(-0.045054465532302856, 0.9989843964576721, -0.0005793898599222302)
+hair_attachment.Name = "HairAttachment"
+hair_attachment.Parent = handle_6
+
+local mesh_6 = Instance.new("SpecialMesh")
+mesh_6.MeshType = Enum.MeshType.FileMesh
+mesh_6.MeshId = "http://www.roblox.com/asset/?id=157959108 "
+mesh_6.TextureId = "http://www.roblox.com/asset/?id=151881922        "
+mesh_6.Offset = Vector3.new(0, 0.30000001192092896, -0.30000001192092896)
+mesh_6.Scale = Vector3.new(0.30000001192092896, 0.4000000059604645, 0.30000001192092896)
+mesh_6.Parent = handle_6
+
+handle_6.Touched:Connect(function()end)
+local touch_interest_3 = handle_6:WaitForChild("TouchInterest")
+
+local afro = Instance.new("Accessory")
+afro.Name = "Afro"
+afro.Parent = items
+
+local rarity_7 = Instance.new("StringValue")
+rarity_7.Value = "Common"
+rarity_7.Name = "Rarity"
+rarity_7.Parent = afro
+
+local image_7 = Instance.new("IntValue")
+image_7.Value = 15923011481
+image_7.Name = "Image"
+image_7.Parent = afro
+
+local handle_7 = Instance.new("Part")
+handle_7.BottomSurface = Enum.SurfaceType.Smooth
+handle_7.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_7.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.2410888671875, 141.96337890625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_7.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_7.Size = Vector3.new(2, 1, 2)
+handle_7.TopSurface = Enum.SurfaceType.Smooth
+handle_7.size = Vector3.new(2, 1, 2)
+handle_7.Name = "Handle"
+handle_7.Parent = afro
+
+local touchtransmittertouch_interest_4 = Instance.new("Folder")
+touchtransmittertouch_interest_4.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_4.Parent = handle_7
+
+local mesh_7 = Instance.new("SpecialMesh")
+mesh_7.MeshType = Enum.MeshType.FileMesh
+mesh_7.MeshId = "http://www.roblox.com/asset/?id=11412443"
+mesh_7.TextureId = "rbxassetid://3984534128"
+mesh_7.Offset = Vector3.new(0, 0.20000000298023224, 0)
+mesh_7.Scale = Vector3.new(0.8999999761581421, 0.8999999761581421, 0.8999999761581421)
+mesh_7.Parent = handle_7
+
+handle_7.Touched:Connect(function()end)
+local touch_interest_4 = handle_7:WaitForChild("TouchInterest")
+
+local beautiful_hair = Instance.new("Accessory")
+beautiful_hair.Name = "Beautiful Hair"
+beautiful_hair.Parent = items
+
+local image_8 = Instance.new("IntValue")
+image_8.Value = 1775301723
+image_8.Name = "Image"
+image_8.Parent = beautiful_hair
+
+local rarity_8 = Instance.new("StringValue")
+rarity_8.Value = "Common"
+rarity_8.Name = "Rarity"
+rarity_8.Parent = beautiful_hair
+
+local handle_8 = Instance.new("Part")
+handle_8.BottomSurface = Enum.SurfaceType.Smooth
+handle_8.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_8.CFrame = CFrame.fromMatrix(Vector3.new(-91.53434753417969, 170.45896911621094, -50.800785064697266), Vector3.new(0.18734252452850342, -0.000030567869544029236, -0.9822946190834045), Vector3.new(0.04491923749446869, 0.998954176902771, 0.008535876870155334), Vector3.new(0.9812670350074768, -0.04572305828332901, 0.18714797496795654))
+handle_8.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_8.Orientation = Vector3.new(2.621000051498413, 79.2020034790039, -0.0020000000949949026)
+handle_8.Rotation = Vector3.new(13.729000091552734, 78.89199829101562, -13.482999801635742)
+handle_8.Size = Vector3.new(2, 2, 2)
+handle_8.TopSurface = Enum.SurfaceType.Smooth
+handle_8.size = Vector3.new(2, 2, 2)
+handle_8.Name = "Handle"
+handle_8.Parent = beautiful_hair
+
+local touchtransmittertouch_interest_5 = Instance.new("Folder")
+touchtransmittertouch_interest_5.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_5.Parent = handle_8
+
+local original_size_9 = Instance.new("Vector3Value")
+original_size_9.Value = Vector3.new(2, 2, 2)
+original_size_9.Name = "OriginalSize"
+original_size_9.Parent = handle_8
+
+local hair_attachment_2 = Instance.new("Attachment")
+hair_attachment_2.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.09999990463256836, -0.0002722442150115967), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_2.Position = Vector3.new(8.658389560878277e-09, 0.09999990463256836, -0.0002722442150115967)
+hair_attachment_2.Visible = false
+hair_attachment_2.WorldAxis = Vector3.new(0.18734252452850342, -0.000030567869544029236, -0.9822946190834045)
+hair_attachment_2.WorldCFrame = CFrame.fromMatrix(Vector3.new(-91.53012084960938, 170.5588836669922, -50.799983978271484), Vector3.new(0.18734252452850342, -0.000030567869544029236, -0.9822946190834045), Vector3.new(0.04491923749446869, 0.998954176902771, 0.008535876870155334), Vector3.new(0.9812670350074768, -0.04572305828332901, 0.18714797496795654))
+hair_attachment_2.WorldOrientation = Vector3.new(2.6206517219543457, 79.20217895507812, -0.0017532435012981296)
+hair_attachment_2.WorldPosition = Vector3.new(-91.53012084960938, 170.5588836669922, -50.799983978271484)
+hair_attachment_2.WorldSecondaryAxis = Vector3.new(0.04491923749446869, 0.998954176902771, 0.008535876870155334)
+hair_attachment_2.Name = "HairAttachment"
+hair_attachment_2.Parent = handle_8
+
+local mesh_8 = Instance.new("SpecialMesh")
+mesh_8.MeshType = Enum.MeshType.FileMesh
+mesh_8.MeshId = "http://www.roblox.com/asset/?id=16627529"
+mesh_8.TextureId = "http://www.roblox.com/asset/?id=16627494"
+mesh_8.Offset = Vector3.new(0, 0, -0.125)
+mesh_8.Scale = Vector3.new(0.800000011920929, 1, 0.9100000262260437)
+mesh_8.Parent = handle_8
+
+handle_8.Touched:Connect(function()end)
+local touch_interest_5 = handle_8:WaitForChild("TouchInterest")
+
+local charmer_hair = Instance.new("Accessory")
+charmer_hair.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 0.07536311447620392, 0.05024207383394241), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+charmer_hair.AttachmentPos = Vector3.new(0, 0.07536311447620392, 0.05024207383394241)
+charmer_hair.Name = "Charmer Hair"
+charmer_hair.Parent = items
+
+local rarity_9 = Instance.new("StringValue")
+rarity_9.Value = "Common"
+rarity_9.Name = "Rarity"
+rarity_9.Parent = charmer_hair
+
+local image_9 = Instance.new("IntValue")
+image_9.Value = 17323921323
+image_9.Name = "Image"
+image_9.Parent = charmer_hair
+
+local handle_9 = Instance.new("Part")
+handle_9.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_9.BottomSurface = Enum.SurfaceType.Smooth
+handle_9.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.1660919189453, 141.9133758544922), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_9.Locked = true
+handle_9.Size = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
+handle_9.TopSurface = Enum.SurfaceType.Smooth
+handle_9.size = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
+handle_9.Name = "Handle"
+handle_9.Parent = charmer_hair
+
+local original_size_10 = Instance.new("Vector3Value")
+original_size_10.Value = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
+original_size_10.Name = "OriginalSize"
+original_size_10.Parent = handle_9
+
+local hair_attachment_3 = Instance.new("Attachment")
+hair_attachment_3.CFrame = CFrame.fromMatrix(Vector3.new(8.657480066176504e-09, 0.17499971389770508, 0.04972776025533676), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_3.Position = Vector3.new(8.657480066176504e-09, 0.17499971389770508, 0.04972776025533676)
+hair_attachment_3.Visible = false
+hair_attachment_3.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_3.WorldPosition = Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688)
+hair_attachment_3.Name = "HairAttachment"
+hair_attachment_3.Parent = handle_9
+
+local mesh_9 = Instance.new("SpecialMesh")
+mesh_9.MeshType = Enum.MeshType.FileMesh
+mesh_9.MeshId = "http://www.roblox.com/asset/?id=74878559"
+mesh_9.TextureId = "http://www.roblox.com/asset/?id=382682502 "
+mesh_9.Offset = Vector3.new(0, 0.07000000029802322, 0)
+mesh_9.Scale = Vector3.new(0.75, 0.800000011920929, 0.7799999713897705)
+mesh_9.Parent = handle_9
+
+local dreads = Instance.new("Accessory")
+dreads.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0.004974365234375, 0.6884424686431885, -0.090728759765625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+dreads.AttachmentPos = Vector3.new(0.004974365234375, 0.6884424686431885, -0.090728759765625)
+dreads.Name = "Dreads"
+dreads.Parent = items
+
+local rarity_10 = Instance.new("StringValue")
+rarity_10.Value = "Common"
+rarity_10.Name = "Rarity"
+rarity_10.Parent = dreads
+
+local image_10 = Instance.new("IntValue")
+image_10.Value = 15526852263
+image_10.Name = "Image"
+image_10.Parent = dreads
+
+local thumbnail_configuration = Instance.new("Configuration")
+thumbnail_configuration.Name = "ThumbnailConfiguration"
+thumbnail_configuration.Parent = dreads
+
+local thumbnail_camera_value = Instance.new("CFrameValue")
+thumbnail_camera_value.Value = CFrame.fromMatrix(Vector3.new(0.05764896050095558, -0.10278035700321198, -2.125121593475342), Vector3.new(-0.999657154083252, 0.000010914867743849754, -0.026189764961600304), Vector3.new(0.002747370395809412, 0.9945261478424072, -0.10445199906826019), Vector3.new(0.026045264676213264, -0.10448811948299408, -0.994185209274292))
+thumbnail_camera_value.Name = "ThumbnailCameraValue"
+thumbnail_camera_value.Parent = thumbnail_configuration
+
+local thumbnail_cameratarget = Instance.new("ObjectValue")
+thumbnail_cameratarget.Value = game.Workspace.items.Dreads.Handle
+thumbnail_cameratarget.Name = "ThumbnailCameraTarget"
+thumbnail_cameratarget.Parent = thumbnail_configuration
+
+local handle_10 = Instance.new("Part")
+handle_10.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_10.BottomSurface = Enum.SurfaceType.Smooth
+handle_10.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_10.CFrame = CFrame.fromMatrix(Vector3.new(-106.0943603515625, 135.65264892578125, 142.0538330078125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_10.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_10.Locked = true
+handle_10.Size = Vector3.new(1, 1, 1)
+handle_10.TopSurface = Enum.SurfaceType.Smooth
+handle_10.size = Vector3.new(1, 1, 1)
+handle_10.Name = "Handle"
+handle_10.Parent = dreads
+
+local touchtransmittertouch_interest_6 = Instance.new("Folder")
+touchtransmittertouch_interest_6.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_6.Parent = handle_10
+
+local original_size_11 = Instance.new("Vector3Value")
+original_size_11.Value = Vector3.new(1, 1, 1)
+original_size_11.Name = "OriginalSize"
+original_size_11.Parent = handle_10
+
+local original_size_12 = Instance.new("Vector3Value")
+original_size_12.Value = Vector3.new(1, 1, 1)
+original_size_12.Name = "OriginalSize"
+original_size_12.Parent = handle_10
+
+local hair_attachment_4 = Instance.new("Attachment")
+hair_attachment_4.CFrame = CFrame.fromMatrix(Vector3.new(0.004974365234375, 0.6884424686431885, -0.090728759765625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_4.Position = Vector3.new(0.004974365234375, 0.6884424686431885, -0.090728759765625)
+hair_attachment_4.Visible = false
+hair_attachment_4.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_4.WorldPosition = Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688)
+hair_attachment_4.Name = "HairAttachment"
+hair_attachment_4.Parent = handle_10
+
+local avatar_part_scale_type = Instance.new("StringValue")
+avatar_part_scale_type.Value = "Classic"
+avatar_part_scale_type.Name = "AvatarPartScaleType"
+avatar_part_scale_type.Parent = handle_10
+
+local special_mesh = Instance.new("SpecialMesh")
+special_mesh.MeshType = Enum.MeshType.FileMesh
+special_mesh.MeshId = "rbxassetid://11925376121"
+special_mesh.TextureId = "rbxassetid://11925253562"
+special_mesh.Offset = Vector3.new(0, 0.25, 0)
+special_mesh.Scale = Vector3.new(0.6000000238418579, 0.699999988079071, 0.699999988079071)
+special_mesh.Name = "SpecialMesh"
+special_mesh.Parent = handle_10
+
+handle_10.Touched:Connect(function()end)
+local touch_interest_6 = handle_10:WaitForChild("TouchInterest")
+
+local female_hair = Instance.new("Accessory")
+female_hair.AttachmentForward = Vector3.new(-0, -0.09949196875095367, -0.9950383901596069)
+female_hair.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 0.8999999761581421, 0), Vector3.new(1, 0, -0), Vector3.new(-0, 0.9950383901596069, -0.09949196875095367), Vector3.new(0, 0.09949196875095367, 0.9950383901596069))
+female_hair.AttachmentPos = Vector3.new(0, 0.8999999761581421, 0)
+female_hair.AttachmentUp = Vector3.new(-0, 0.9950383901596069, -0.09949196875095367)
+female_hair.Name = "Female Hair"
+female_hair.Parent = items
+
+local image_11 = Instance.new("IntValue")
+image_11.Value = 14865594509
+image_11.Name = "Image"
+image_11.Parent = female_hair
+
+local rarity_11 = Instance.new("StringValue")
+rarity_11.Value = "Common"
+rarity_11.Name = "Rarity"
+rarity_11.Parent = female_hair
+
+local handle_11 = Instance.new("Part")
+handle_11.BottomSurface = Enum.SurfaceType.Smooth
+handle_11.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_11.CFrame = CFrame.fromMatrix(Vector3.new(-104.20765686035156, 366.25372314453125, 72.86158752441406), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_11.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_11.Locked = true
+handle_11.Size = Vector3.new(1, 2.4000000953674316, 2)
+handle_11.TopSurface = Enum.SurfaceType.Smooth
+handle_11.size = Vector3.new(1, 2.4000000953674316, 2)
+handle_11.Name = "Handle"
+handle_11.Parent = female_hair
+
+local touchtransmittertouch_interest_7 = Instance.new("Folder")
+touchtransmittertouch_interest_7.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_7.Parent = handle_11
+
+local hair_attachment_5 = Instance.new("Attachment")
+hair_attachment_5.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.999476432800293, -0.010221272706985474), Vector3.new(1, 0, 0), Vector3.new(-0, 0.9950383901596069, -0.09949196875095367), Vector3.new(-0, 0.09949196875095367, 0.9950383901596069))
+hair_attachment_5.Orientation = Vector3.new(-5.709916591644287, -0, 0)
+hair_attachment_5.Position = Vector3.new(8.658389560878277e-09, 0.999476432800293, -0.010221272706985474)
+hair_attachment_5.SecondaryAxis = Vector3.new(-0, 0.9950383901596069, -0.09949196875095367)
+hair_attachment_5.Visible = false
+hair_attachment_5.WorldCFrame = CFrame.fromMatrix(Vector3.new(-104.20765686035156, 367.2532043457031, 72.85136413574219), Vector3.new(1, 0, 0), Vector3.new(0, 0.9950383901596069, -0.09949196875095367), Vector3.new(0, 0.09949196875095367, 0.9950383901596069))
+hair_attachment_5.WorldOrientation = Vector3.new(-5.709916591644287, -0, 0)
+hair_attachment_5.WorldPosition = Vector3.new(-104.20765686035156, 367.2532043457031, 72.85136413574219)
+hair_attachment_5.WorldSecondaryAxis = Vector3.new(0, 0.9950383901596069, -0.09949196875095367)
+hair_attachment_5.Name = "HairAttachment"
+hair_attachment_5.Parent = handle_11
+
+local mesh_10 = Instance.new("SpecialMesh")
+mesh_10.MeshType = Enum.MeshType.FileMesh
+mesh_10.MeshId = "http://www.roblox.com/asset/?id=13070796"
+mesh_10.TextureId = "http://www.roblox.com/asset/?id=14765363"
+mesh_10.Scale = Vector3.new(0.6499999761581421, 1, 1)
+mesh_10.Parent = handle_11
+
+handle_11.Touched:Connect(function()end)
+local touch_interest_7 = handle_11:WaitForChild("TouchInterest")
+
+local golden_eustacia = Instance.new("Accessory")
+golden_eustacia.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 2.700000047683716, -1), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+golden_eustacia.AttachmentPos = Vector3.new(0, 2.700000047683716, -1)
+golden_eustacia.Name = "Golden Eustacia"
+golden_eustacia.Parent = items
+
+local rarity_12 = Instance.new("StringValue")
+rarity_12.Value = "Rare"
+rarity_12.Name = "Rarity"
+rarity_12.Parent = golden_eustacia
+
+local image_12 = Instance.new("IntValue")
+image_12.Value = 17408078274
+image_12.Name = "Image"
+image_12.Parent = golden_eustacia
+
+local handle_12 = Instance.new("MeshPart")
+handle_12.TextureID = "rbxassetid://11947975018"
+handle_12.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_12.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 133.5410919189453, 142.96337890625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_12.Massless = true
+handle_12.Size = Vector3.new(3, 6.315000057220459, 3.183000087738037)
+handle_12.size = Vector3.new(3, 6.315000057220459, 3.183000087738037)
+handle_12.Name = "Handle"
+handle_12.Parent = golden_eustacia
+
+local original_size_13 = Instance.new("Vector3Value")
+original_size_13.Value = Vector3.new(3, 6.315000057220459, 3.183000087738037)
+original_size_13.Name = "OriginalSize"
+original_size_13.Parent = handle_12
+
+local tf = Instance.new("Bone")
+tf.Axis = Vector3.new(0.9999998211860657, 0.0005441414541564882, 0.00027655845042318106)
+tf.CFrame = CFrame.fromMatrix(Vector3.new(9.5367431640625e-07, 1.887657642364502, -0.8404083251953125), Vector3.new(0.9999998211860657, 0.0005441414541564882, 0.00027655845042318106), Vector3.new(-0.00027655839221552014, 0.8078217506408691, -0.5894268155097961), Vector3.new(-0.0005441415123641491, 0.5894266366958618, 0.8078218102455139))
+tf.Orientation = Vector3.new(-36.1163330078125, -0.03859391808509827, 0.03859391063451767)
+tf.Position = Vector3.new(9.5367431640625e-07, 1.887657642364502, -0.8404083251953125)
+tf.SecondaryAxis = Vector3.new(-0.00027655839221552014, 0.8078217506408691, -0.5894268155097961)
+tf.Visible = false
+tf.WorldAxis = Vector3.new(0.9999998211860657, 0.0005441414541564882, 0.00027655845042318106)
+tf.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 135.4287567138672, 142.1229705810547), Vector3.new(0.9999998211860657, 0.0005441414541564882, 0.00027655845042318106), Vector3.new(-0.00027655839221552014, 0.8078217506408691, -0.5894268155097961), Vector3.new(-0.0005441415123641491, 0.5894266366958618, 0.8078218102455139))
+tf.WorldOrientation = Vector3.new(-36.1163330078125, -0.03859391808509827, 0.03859391063451767)
+tf.WorldPosition = Vector3.new(-106.08938598632812, 135.4287567138672, 142.1229705810547)
+tf.WorldSecondaryAxis = Vector3.new(-0.00027655839221552014, 0.8078217506408691, -0.5894268155097961)
+tf.Name = "tf"
+tf.Parent = handle_12
+
+local tf_2 = Instance.new("Bone")
+tf_2.Axis = Vector3.new(0.9935039281845093, -0.11269502341747284, 0.01580289751291275)
+tf_2.CFrame = CFrame.fromMatrix(Vector3.new(0.5694742202758789, 0.6244449615478516, 0.1481914520263672), Vector3.new(0.9935039281845093, -0.11269502341747284, 0.01580289751291275), Vector3.new(-0.07697174698114395, -0.7677689790725708, -0.6360865831375122), Vector3.new(0.0838167667388916, 0.6307381391525269, -0.7714558243751526))
+tf_2.Orientation = Vector3.new(-39.1046028137207, 173.7992706298828, -171.6496124267578)
+tf_2.Position = Vector3.new(0.5694742202758789, 0.6244449615478516, 0.1481914520263672)
+tf_2.SecondaryAxis = Vector3.new(-0.07697174698114395, -0.7677689790725708, -0.6360865831375122)
+tf_2.Visible = false
+tf_2.WorldAxis = Vector3.new(0.9935263395309448, -0.08118223398923874, 0.07946616411209106)
+tf_2.WorldCFrame = CFrame.fromMatrix(Vector3.new(-105.5201644897461, 136.02085876464844, 141.87477111816406), Vector3.new(0.9935263395309448, -0.08118223398923874, 0.07946616411209106), Vector3.new(-0.07641327381134033, -0.9951887726783752, -0.06132227182388306), Vector3.new(0.08406209945678711, 0.054852962493896484, -0.9949496388435364))
+tf_2.WorldOrientation = Vector3.new(-3.1444246768951416, 175.17062377929688, -175.33642578125)
+tf_2.WorldPosition = Vector3.new(-105.5201644897461, 136.02085876464844, 141.87477111816406)
+tf_2.WorldSecondaryAxis = Vector3.new(-0.07641327381134033, -0.9951887726783752, -0.06132227182388306)
+tf_2.Name = "tf"
+tf_2.Parent = tf
+
+local tf_3 = Instance.new("Bone")
+tf_3.Axis = Vector3.new(0.37288135290145874, -0.8652133941650391, 0.3352093994617462)
+tf_3.CFrame = CFrame.fromMatrix(Vector3.new(0.5019731521606445, 0.12248516082763672, -0.13381576538085938), Vector3.new(0.37288135290145874, -0.8652133941650391, 0.3352093994617462), Vector3.new(0.8416476249694824, 0.1632973700761795, -0.5147457718849182), Vector3.new(0.39062610268592834, 0.4740672707557678, 0.7890953421592712))
+tf_3.Orientation = Vector3.new(-28.29863739013672, 26.336803436279297, -79.31192016601562)
+tf_3.Position = Vector3.new(0.5019731521606445, 0.12248516082763672, -0.13381576538085938)
+tf_3.SecondaryAxis = Vector3.new(0.8416476249694824, 0.1632973700761795, -0.5147457718849182)
+tf_3.Visible = false
+tf_3.WorldAxis = Vector3.new(0.4647596478462219, 0.8491665124893188, -0.25082817673683167)
+tf_3.WorldCFrame = CFrame.fromMatrix(Vector3.new(-105.04204559326172, 135.85086059570312, 142.040283203125), Vector3.new(0.4647596478462219, 0.8491665124893188, -0.25082817673683167), Vector3.new(0.7804504036903381, -0.2590738534927368, 0.569014847278595), Vector3.new(0.4182053208351135, -0.46021410822868347, -0.7831394672393799))
+tf_3.WorldOrientation = Vector3.new(27.400920867919922, 151.89727783203125, 106.96652221679688)
+tf_3.WorldPosition = Vector3.new(-105.04204559326172, 135.85086059570312, 142.040283203125)
+tf_3.WorldSecondaryAxis = Vector3.new(0.7804504036903381, -0.2590738534927368, 0.569014847278595)
+tf_3.Name = "tf"
+tf_3.Parent = tf_2
+
+local tf_4 = Instance.new("Bone")
+tf_4.Axis = Vector3.new(0.7429858446121216, 0.4251425564289093, -0.5169389843940735)
+tf_4.CFrame = CFrame.fromMatrix(Vector3.new(0.0715789794921875, 0.5345849990844727, -0.095001220703125), Vector3.new(0.7429858446121216, 0.4251425564289093, -0.5169389843940735), Vector3.new(0.4452216923236847, 0.2627524733543396, 0.8560016751289368), Vector3.new(0.49974972009658813, -0.8661495447158813, 0.005938678979873657))
+tf_4.Orientation = Vector3.new(60.01422882080078, 89.31916046142578, 58.28253173828125)
+tf_4.Position = Vector3.new(0.0715789794921875, 0.5345849990844727, -0.095001220703125)
+tf_4.SecondaryAxis = Vector3.new(0.4452216923236847, 0.2627524733543396, 0.8560016751289368)
+tf_4.Visible = false
+tf_4.WorldAxis = Vector3.new(0.4609258770942688, 0.7586779594421387, 0.4603859484195709)
+tf_4.WorldCFrame = CFrame.fromMatrix(Vector3.new(-104.63129425048828, 135.81686401367188, 142.4009246826172), Vector3.new(0.4609258770942688, 0.7586779594421387, 0.4603859484195709), Vector3.new(0.7699707746505737, -0.0839489996433258, -0.6325327754020691), Vector3.new(-0.44123968482017517, 0.6460344195365906, -0.6228541135787964))
+tf_4.WorldOrientation = Vector3.new(-40.243282318115234, -144.6856231689453, 96.3141860961914)
+tf_4.WorldPosition = Vector3.new(-104.63129425048828, 135.81686401367188, 142.4009246826172)
+tf_4.WorldSecondaryAxis = Vector3.new(0.7699707746505737, -0.0839489996433258, -0.6325327754020691)
+tf_4.Name = "tf"
+tf_4.Parent = tf_3
+
+local tf_5 = Instance.new("Bone")
+tf_5.CFrame = CFrame.fromMatrix(Vector3.new(-0.0000019073486328125, 0.6657552719116211, 0), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+tf_5.Position = Vector3.new(-0.0000019073486328125, 0.6657552719116211, 0)
+tf_5.Visible = false
+tf_5.WorldAxis = Vector3.new(0.4609258770942688, 0.7586779594421387, 0.4603859484195709)
+tf_5.WorldCFrame = CFrame.fromMatrix(Vector3.new(-104.11868286132812, 135.76097106933594, 141.9798126220703), Vector3.new(0.4609258770942688, 0.7586779594421387, 0.4603859484195709), Vector3.new(0.7699707746505737, -0.0839489996433258, -0.6325327754020691), Vector3.new(-0.44123968482017517, 0.6460344195365906, -0.6228541135787964))
+tf_5.WorldOrientation = Vector3.new(-40.243282318115234, -144.6856231689453, 96.3141860961914)
+tf_5.WorldPosition = Vector3.new(-104.11868286132812, 135.76097106933594, 141.9798126220703)
+tf_5.WorldSecondaryAxis = Vector3.new(0.7699707746505737, -0.0839489996433258, -0.6325327754020691)
+tf_5.Name = "tf"
+tf_5.Parent = tf_4
+
+local tf_6 = Instance.new("Bone")
+tf_6.Axis = Vector3.new(0.9935532212257385, 0.11209568381309509, -0.01692969724535942)
+tf_6.CFrame = CFrame.fromMatrix(Vector3.new(-0.5689353942871094, 0.6247940063476562, 0.14884376525878906), Vector3.new(0.9935532212257385, 0.11209568381309509, -0.01692969724535942), Vector3.new(0.07578593492507935, -0.7678062319755554, -0.6361839771270752), Vector3.new(-0.08431220799684525, 0.6307995915412903, -0.7713516354560852))
+tf_6.Orientation = Vector3.new(-39.10913848876953, -173.76206970214844, 171.69378662109375)
+tf_6.Position = Vector3.new(-0.5689353942871094, 0.6247940063476562, 0.14884376525878906)
+tf_6.SecondaryAxis = Vector3.new(0.07578593492507935, -0.7678062319755554, -0.6361839771270752)
+tf_6.Visible = false
+tf_6.WorldAxis = Vector3.new(0.9935312867164612, 0.08111514896154404, -0.07947360724210739)
+tf_6.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.65857696533203, 136.02090454101562, 141.87478637695312), Vector3.new(0.9935312867164612, 0.08111514896154404, -0.07947360724210739), Vector3.new(0.07634443789720535, -0.9951931238174438, -0.06133675575256348), Vector3.new(-0.08406692743301392, 0.0548725426197052, -0.994948148727417))
+tf_6.WorldOrientation = Vector3.new(-3.1455490589141846, -175.1703338623047, 175.3402862548828)
+tf_6.WorldPosition = Vector3.new(-106.65857696533203, 136.02090454101562, 141.87478637695312)
+tf_6.WorldSecondaryAxis = Vector3.new(0.07634443789720535, -0.9951931238174438, -0.06133675575256348)
+tf_6.Name = "tf"
+tf_6.Parent = tf
+
+local tf_7 = Instance.new("Bone")
+tf_7.Axis = Vector3.new(0.8577603101730347, -0.2693171799182892, -0.4378533959388733)
+tf_7.CFrame = CFrame.fromMatrix(Vector3.new(-0.15142440795898438, 0.09203815460205078, 0.4996662139892578), Vector3.new(0.8577603101730347, -0.2693171799182892, -0.4378533959388733), Vector3.new(0.48322388529777527, 0.7129680514335632, 0.5081055760383606), Vector3.new(0.1753339171409607, -0.6474140286445618, 0.7416961789131165))
+tf_7.Orientation = Vector3.new(40.3469123840332, 13.30031967163086, -20.693599700927734)
+tf_7.Position = Vector3.new(-0.15142440795898438, 0.09203815460205078, 0.4996662139892578)
+tf_7.SecondaryAxis = Vector3.new(0.48322388529777527, 0.7129680514335632, 0.5081055760383606)
+tf_7.Visible = false
+tf_7.WorldAxis = Vector3.new(0.8684598207473755, 0.31357383728027344, 0.38399118185043335)
+tf_7.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.84400177001953, 135.94442749023438, 141.384033203125), Vector3.new(0.8684598207473755, 0.31357383728027344, 0.38399118185043335), Vector3.new(0.49181434512138367, -0.6424630880355835, -0.5876734256744385), Vector3.new(0.062421154230833054, 0.6992230415344238, -0.7121734023094177))
+tf_7.WorldOrientation = Vector3.new(-44.364707946777344, 174.9908905029297, 153.98388671875)
+tf_7.WorldPosition = Vector3.new(-106.84400177001953, 135.94442749023438, 141.384033203125)
+tf_7.WorldSecondaryAxis = Vector3.new(0.49181434512138367, -0.6424630880355835, -0.5876734256744385)
+tf_7.Name = "tf"
+tf_7.Parent = tf_6
+
+local tf_8 = Instance.new("Bone")
+tf_8.Axis = Vector3.new(0.9894829988479614, 0.14214858412742615, 0.02678094059228897)
+tf_8.CFrame = CFrame.fromMatrix(Vector3.new(0.0024690628051757812, 0.6460895538330078, 0.0023059844970703125), Vector3.new(0.9894829988479614, 0.14214858412742615, 0.02678094059228897), Vector3.new(-0.12981146574020386, 0.9543120861053467, -0.2691420614719391), Vector3.new(-0.06381553411483765, 0.2628350257873535, 0.9627280831336975))
+tf_8.Orientation = Vector3.new(-15.238349914550781, -3.7923686504364014, 8.472143173217773)
+tf_8.Position = Vector3.new(0.0024690628051757812, 0.6460895538330078, 0.0023059844970703125)
+tf_8.SecondaryAxis = Vector3.new(-0.12981146574020386, 0.9543120861053467, -0.2691420614719391)
+tf_8.Visible = false
+tf_8.WorldAxis = Vector3.new(0.9309086203575134, 0.23767660558223724, 0.27734312415122986)
+tf_8.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.5239486694336, 135.53172302246094, 141.00364685058594), Vector3.new(0.9309086203575134, 0.23767660558223724, 0.27734312415122986), Vector3.new(0.3398081660270691, -0.8420061469078064, -0.4189945161342621), Vector3.new(0.13393941521644592, 0.4842889904975891, -0.8645950555801392))
+tf_8.WorldOrientation = Vector3.new(-28.965904235839844, 171.1939697265625, 164.23699951171875)
+tf_8.WorldPosition = Vector3.new(-106.5239486694336, 135.53172302246094, 141.00364685058594)
+tf_8.WorldSecondaryAxis = Vector3.new(0.3398081660270691, -0.8420061469078064, -0.4189945161342621)
+tf_8.Name = "tf"
+tf_8.Parent = tf_7
+
+local tf_9 = Instance.new("Bone")
+tf_9.CFrame = CFrame.fromMatrix(Vector3.new(0.0000019073486328125, 0.6657905578613281, 0.0000019073486328125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+tf_9.Position = Vector3.new(0.0000019073486328125, 0.6657905578613281, 0.0000019073486328125)
+tf_9.Visible = false
+tf_9.WorldAxis = Vector3.new(0.9309086203575134, 0.23767660558223724, 0.27734312415122986)
+tf_9.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.29771423339844, 134.9711456298828, 140.7246856689453), Vector3.new(0.9309086203575134, 0.23767660558223724, 0.27734312415122986), Vector3.new(0.3398081660270691, -0.8420061469078064, -0.4189945161342621), Vector3.new(0.13393941521644592, 0.4842889904975891, -0.8645950555801392))
+tf_9.WorldOrientation = Vector3.new(-28.965904235839844, 171.1939697265625, 164.23699951171875)
+tf_9.WorldPosition = Vector3.new(-106.29771423339844, 134.9711456298828, 140.7246856689453)
+tf_9.WorldSecondaryAxis = Vector3.new(0.3398081660270691, -0.8420061469078064, -0.4189945161342621)
+tf_9.Name = "tf"
+tf_9.Parent = tf_8
+
+local tf_10 = Instance.new("Bone")
+tf_10.Axis = Vector3.new(0.9731787443161011, -0.22135065495967865, 0.06266606599092484)
+tf_10.CFrame = CFrame.fromMatrix(Vector3.new(-0.7556319236755371, -0.06737518310546875, 0.406982421875), Vector3.new(0.9731787443161011, -0.22135065495967865, 0.06266606599092484), Vector3.new(-0.1764332503080368, -0.8929458856582642, -0.41414862871170044), Vector3.new(0.14762946963310242, 0.3919842839241028, -0.9080495834350586))
+tf_10.Orientation = Vector3.new(-23.07802391052246, 170.76573181152344, -166.07769775390625)
+tf_10.Position = Vector3.new(-0.7556319236755371, -0.06737518310546875, 0.406982421875)
+tf_10.SecondaryAxis = Vector3.new(-0.1764332503080368, -0.8929458856582642, -0.41414862871170044)
+tf_10.Visible = false
+tf_10.WorldAxis = Vector3.new(0.9732056856155396, -0.1413452923297882, 0.18136216700077057)
+tf_10.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.84522247314453, 135.61380004882812, 142.49124145507812), Vector3.new(0.9732056856155396, -0.1413452923297882, 0.18136216700077057), Vector3.new(-0.17596091330051422, -0.9655473828315735, 0.19171911478042603), Vector3.new(0.14801514148712158, -0.21849486231803894, -0.9645475149154663))
+tf_10.WorldOrientation = Vector3.new(12.62063980102539, 171.27569580078125, -171.6716766357422)
+tf_10.WorldPosition = Vector3.new(-106.84522247314453, 135.61380004882812, 142.49124145507812)
+tf_10.WorldSecondaryAxis = Vector3.new(-0.17596091330051422, -0.9655473828315735, 0.19171911478042603)
+tf_10.Name = "tf"
+tf_10.Parent = tf
+
+local tf_11 = Instance.new("Bone")
+tf_11.Axis = Vector3.new(0.9975900650024414, -0.011874238029122353, -0.0683598667383194)
+tf_11.CFrame = CFrame.fromMatrix(Vector3.new(0.21335601806640625, 0.7409038543701172, 0.5105972290039062), Vector3.new(0.9975900650024414, -0.011874238029122353, -0.0683598667383194), Vector3.new(-0.01943765953183174, 0.8979655504226685, -0.4396362006664276), Vector3.new(0.06660515069961548, 0.43990546464920044, 0.895570695400238))
+tf_11.Orientation = Vector3.new(-26.09784698486328, 4.253356456756592, -0.7576059103012085)
+tf_11.Position = Vector3.new(0.21335601806640625, 0.7409038543701172, 0.5105972290039062)
+tf_11.SecondaryAxis = Vector3.new(-0.01943765953183174, 0.8979655504226685, -0.4396362006664276)
+tf_11.Visible = false
+tf_11.WorldAxis = Vector3.new(0.9628313779830933, -0.11460323631763458, 0.24458491802215576)
+tf_11.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.69237518310547, 134.75669860839844, 142.1794891357422), Vector3.new(0.9628313779830933, -0.11460323631763458, 0.24458491802215576), Vector3.new(-0.24199649691581726, -0.7682226300239563, 0.592681884765625), Vector3.new(0.119972363114357, -0.6298415064811707, -0.7674025297164917))
+tf_11.WorldOrientation = Vector3.new(39.03842544555664, 171.1145477294922, -171.5151824951172)
+tf_11.WorldPosition = Vector3.new(-106.69237518310547, 134.75669860839844, 142.1794891357422)
+tf_11.WorldSecondaryAxis = Vector3.new(-0.24199649691581726, -0.7682226300239563, 0.592681884765625)
+tf_11.Name = "tf"
+tf_11.Parent = tf_10
+
+local tf_12 = Instance.new("Bone")
+tf_12.Axis = Vector3.new(0.990464985370636, -0.02530669793486595, 0.1354202926158905)
+tf_12.CFrame = CFrame.fromMatrix(Vector3.new(-0.0067310333251953125, 1.1233367919921875, -0.005199432373046875), Vector3.new(0.990464985370636, -0.02530669793486595, 0.1354202926158905), Vector3.new(-0.10927440971136093, 0.45428603887557983, 0.8841285705566406), Vector3.new(-0.08389392495155334, -0.8904963731765747, 0.4471890330314636))
+tf_12.Orientation = Vector3.new(62.93568420410156, -10.625345230102539, -3.188453435897827)
+tf_12.Position = Vector3.new(-0.0067310333251953125, 1.1233367919921875, -0.005199432373046875)
+tf_12.SecondaryAxis = Vector3.new(-0.10927440971136093, 0.45428603887557983, 0.8841285705566406)
+tf_12.Visible = false
+tf_12.WorldAxis = Vector3.new(0.9760215878486633, -0.17936262488365173, 0.12333209812641144)
+tf_12.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.97132110595703, 133.89776611328125, 142.8476104736328), Vector3.new(0.9760215878486633, -0.17936262488365173, 0.12333209812641144), Vector3.new(-0.10907745361328125, -0.893330454826355, -0.4359622299671173), Vector3.new(0.18837162852287292, 0.4120558202266693, -0.8914742469787598))
+tf_12.WorldOrientation = Vector3.new(-24.334041595458984, 168.06871032714844, -168.64710998535156)
+tf_12.WorldPosition = Vector3.new(-106.97132110595703, 133.89776611328125, 142.8476104736328)
+tf_12.WorldSecondaryAxis = Vector3.new(-0.10907745361328125, -0.893330454826355, -0.4359622299671173)
+tf_12.Name = "tf"
+tf_12.Parent = tf_11
+
+local tf_13 = Instance.new("Bone")
+tf_13.Axis = Vector3.new(0.9989271759986877, -0.044725507497787476, 0.012007491663098335)
+tf_13.CFrame = CFrame.fromMatrix(Vector3.new(-0.00017309188842773438, 1.3434553146362305, 0.0018177032470703125), Vector3.new(0.9989271759986877, -0.044725507497787476, 0.012007491663098335), Vector3.new(0.04624650254845619, 0.9769532680511475, -0.2083832174539566), Vector3.new(-0.0024107135832309723, 0.20871496200561523, 0.9779735803604126))
+tf_13.Orientation = Vector3.new(-12.047056198120117, -0.14123430848121643, -2.6212048530578613)
+tf_13.Position = Vector3.new(-0.00017309188842773438, 1.3434553146362305, 0.0018177032470703125)
+tf_13.SecondaryAxis = Vector3.new(0.04624650254845619, 0.9769532680511475, -0.2083832174539566)
+tf_13.Visible = false
+tf_13.WorldAxis = Vector3.new(0.9821149110794067, -0.13426779210567474, 0.13199403882026672)
+tf_13.WorldCFrame = CFrame.fromMatrix(Vector3.new(-107.11769104003906, 132.69839477539062, 142.26026916503906), Vector3.new(0.9821149110794067, -0.13426779210567474, 0.13199403882026672), Vector3.new(-0.10067947208881378, -0.966902494430542, -0.23444277048110962), Vector3.new(0.15910346806049347, 0.21696065366268158, -0.9631274342536926))
+tf_13.WorldOrientation = Vector3.new(-12.530579566955566, 170.61976623535156, -172.09423828125)
+tf_13.WorldPosition = Vector3.new(-107.11769104003906, 132.69839477539062, 142.26026916503906)
+tf_13.WorldSecondaryAxis = Vector3.new(-0.10067947208881378, -0.966902494430542, -0.23444277048110962)
+tf_13.Name = "tf"
+tf_13.Parent = tf_12
+
+local tf_14 = Instance.new("Bone")
+tf_14.CFrame = CFrame.fromMatrix(Vector3.new(-0.0000019073486328125, 1.35569429397583, 0.0000019073486328125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+tf_14.Position = Vector3.new(-0.0000019073486328125, 1.35569429397583, 0.0000019073486328125)
+tf_14.Visible = false
+tf_14.WorldAxis = Vector3.new(0.9821149110794067, -0.13426779210567474, 0.13199403882026672)
+tf_14.WorldCFrame = CFrame.fromMatrix(Vector3.new(-107.25418090820312, 131.38758850097656, 141.9424285888672), Vector3.new(0.9821149110794067, -0.13426779210567474, 0.13199403882026672), Vector3.new(-0.10067947208881378, -0.966902494430542, -0.23444277048110962), Vector3.new(0.15910346806049347, 0.21696065366268158, -0.9631274342536926))
+tf_14.WorldOrientation = Vector3.new(-12.530579566955566, 170.61976623535156, -172.09423828125)
+tf_14.WorldPosition = Vector3.new(-107.25418090820312, 131.38758850097656, 141.9424285888672)
+tf_14.WorldSecondaryAxis = Vector3.new(-0.10067947208881378, -0.966902494430542, -0.23444277048110962)
+tf_14.Name = "tf"
+tf_14.Parent = tf_13
+
+local tf_15 = Instance.new("Bone")
+tf_15.Axis = Vector3.new(0.9732518792152405, 0.22071868181228638, -0.06374995410442352)
+tf_15.CFrame = CFrame.fromMatrix(Vector3.new(0.7560749053955078, -0.06781959533691406, 0.4061241149902344), Vector3.new(0.9732518792152405, 0.22071868181228638, -0.06374995410442352), Vector3.new(0.1753883957862854, -0.8930505514144897, -0.41436654329299927), Vector3.new(-0.14839036762714386, 0.39210203289985657, -0.9078746438026428))
+tf_15.Orientation = Vector3.new(-23.085355758666992, -170.71719360351562, 166.11746215820312)
+tf_15.Position = Vector3.new(0.7560749053955078, -0.06781959533691406, 0.4061241149902344)
+tf_15.SecondaryAxis = Vector3.new(0.1753883957862854, -0.8930505514144897, -0.41436654329299927)
+tf_15.Visible = false
+tf_15.WorldAxis = Vector3.new(0.9732253551483154, 0.14125502109527588, -0.1813269555568695)
+tf_15.WorldCFrame = CFrame.fromMatrix(Vector3.new(-105.33351135253906, 135.61376953125, 142.49122619628906), Vector3.new(0.9732253551483154, 0.14125502109527588, -0.1813269555568695), Vector3.new(0.17586082220077515, -0.9655689001083374, 0.19170212745666504), Vector3.new(-0.14800475537776947, -0.2184576690196991, -0.964557409286499))
+tf_15.WorldOrientation = Vector3.new(12.618460655212402, -171.27638244628906, 171.6771240234375)
+tf_15.WorldPosition = Vector3.new(-105.33351135253906, 135.61376953125, 142.49122619628906)
+tf_15.WorldSecondaryAxis = Vector3.new(0.17586082220077515, -0.9655689001083374, 0.19170212745666504)
+tf_15.Name = "tf"
+tf_15.Parent = tf
+
+local tf_16 = Instance.new("Bone")
+tf_16.Axis = Vector3.new(0.955854058265686, 0.25311169028282166, 0.14925633370876312)
+tf_16.CFrame = CFrame.fromMatrix(Vector3.new(-0.6082534790039062, 0.6047744750976562, -0.3405323028564453), Vector3.new(0.955854058265686, 0.25311169028282166, 0.14925633370876312), Vector3.new(-0.2924627661705017, 0.8686501979827881, 0.3998904824256897), Vector3.new(-0.028434589505195618, -0.4258888363838196, 0.9043285846710205))
+tf_16.Orientation = Vector3.new(25.20693588256836, -1.8009443283081055, 16.245332717895508)
+tf_16.Position = Vector3.new(-0.6082534790039062, 0.6047744750976562, -0.3405323028564453)
+tf_16.SecondaryAxis = Vector3.new(-0.2924627661705017, 0.8686501979827881, 0.3998904824256897)
+tf_16.Visible = false
+tf_16.WorldAxis = Vector3.new(0.9526832103729248, -0.1419837772846222, -0.2687663733959198)
+tf_16.WorldCFrame = CFrame.fromMatrix(Vector3.new(-105.76872253417969, 135.01828002929688, 143.04591369628906), Vector3.new(0.9526832103729248, -0.1419837772846222, -0.2687663733959198), Vector3.new(-0.19105634093284607, -0.9674125909805298, -0.1661638617515564), Vector3.new(-0.23641535639762878, 0.20965099334716797, -0.9487646818161011))
+tf_16.WorldOrientation = Vector3.new(-12.10190200805664, -166.00784301757812, -171.6505126953125)
+tf_16.WorldPosition = Vector3.new(-105.76872253417969, 135.01828002929688, 143.04591369628906)
+tf_16.WorldSecondaryAxis = Vector3.new(-0.19105634093284607, -0.9674125909805298, -0.1661638617515564)
+tf_16.Name = "tf"
+tf_16.Parent = tf_15
+
+local tf_17 = Instance.new("Bone")
+tf_17.Axis = Vector3.new(0.9869204759597778, -0.019045691937208176, -0.1600789725780487)
+tf_17.CFrame = CFrame.fromMatrix(Vector3.new(-0.0005769729614257812, 1.1781182289123535, 0.000606536865234375), Vector3.new(0.9869204759597778, -0.019045691937208176, -0.1600789725780487), Vector3.new(0.0036426126025617123, 0.9953776001930237, -0.09596942365169525), Vector3.new(0.16116683185100555, 0.09413108229637146, 0.9824278950691223))
+tf_17.Orientation = Vector3.new(-5.401309967041016, 9.316362380981445, -1.0961716175079346)
+tf_17.Position = Vector3.new(-0.0005769729614257812, 1.1781182289123535, 0.000606536865234375)
+tf_17.SecondaryAxis = Vector3.new(0.0036426126025617123, 0.9953776001930237, -0.09596942365169525)
+tf_17.Visible = false
+tf_17.WorldAxis = Vector3.new(0.9817065000534058, -0.15526236593723297, -0.11020906269550323)
+tf_17.WorldCFrame = CFrame.fromMatrix(Vector3.new(-105.99449920654297, 133.87876892089844, 142.84974670410156), Vector3.new(0.9817065000534058, -0.15526236593723297, -0.11020906269550323), Vector3.new(-0.1640143096446991, -0.983578085899353, -0.07532238960266113), Vector3.new(-0.09670445322990417, 0.09202030301094055, -0.9910503029823303))
+tf_17.WorldOrientation = Vector3.new(-5.27984619140625, -174.4268341064453, -171.02960205078125)
+tf_17.WorldPosition = Vector3.new(-105.99449920654297, 133.87876892089844, 142.84974670410156)
+tf_17.WorldSecondaryAxis = Vector3.new(-0.1640143096446991, -0.983578085899353, -0.07532238960266113)
+tf_17.Name = "tf"
+tf_17.Parent = tf_16
+
+local tf_18 = Instance.new("Bone")
+tf_18.Axis = Vector3.new(0.9996254444122314, 0.012910891324281693, -0.024130208417773247)
+tf_18.CFrame = CFrame.fromMatrix(Vector3.new(-0.0005283355712890625, 1.3509783744812012, 0.0008563995361328125), Vector3.new(0.9996254444122314, 0.012910891324281693, -0.024130208417773247), Vector3.new(-0.016517942771315575, 0.9876446723937988, -0.15583711862564087), Vector3.new(0.021820075809955597, 0.1561773270368576, 0.9874880313873291))
+tf_18.Orientation = Vector3.new(-8.98508358001709, 1.2658329010009766, 0.7489510178565979)
+tf_18.Position = Vector3.new(-0.0005283355712890625, 1.3509783744812012, 0.0008563995361328125)
+tf_18.SecondaryAxis = Vector3.new(-0.016517942771315575, 0.9876446723937988, -0.15583711862564087)
+tf_18.Visible = false
+tf_18.WorldAxis = Vector3.new(0.9815547466278076, -0.17012354731559753, -0.0872260183095932)
+tf_18.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.21669006347656, 132.5501251220703, 142.7471923828125), Vector3.new(0.9815547466278076, -0.17012354731559753, -0.0872260183095932), Vector3.new(-0.16313348710536957, -0.9832012057304382, 0.08187109977006912), Vector3.new(-0.09968890249729156, -0.06613148748874664, -0.9928187727928162))
+tf_18.WorldOrientation = Vector3.new(3.7918217182159424, -174.26612854003906, -170.18328857421875)
+tf_18.WorldPosition = Vector3.new(-106.21669006347656, 132.5501251220703, 142.7471923828125)
+tf_18.WorldSecondaryAxis = Vector3.new(-0.16313348710536957, -0.9832012057304382, 0.08187109977006912)
+tf_18.Name = "tf"
+tf_18.Parent = tf_17
+
+local tf_19 = Instance.new("Bone")
+tf_19.CFrame = CFrame.fromMatrix(Vector3.new(0.0000019073486328125, 1.3556935787200928, 0), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+tf_19.Position = Vector3.new(0.0000019073486328125, 1.3556935787200928, 0)
+tf_19.Visible = false
+tf_19.WorldAxis = Vector3.new(0.9815547466278076, -0.17012354731559753, -0.0872260183095932)
+tf_19.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.4378433227539, 131.2172088623047, 142.85818481445312), Vector3.new(0.9815547466278076, -0.17012354731559753, -0.0872260183095932), Vector3.new(-0.16313348710536957, -0.9832012057304382, 0.08187109977006912), Vector3.new(-0.09968890249729156, -0.06613148748874664, -0.9928187727928162))
+tf_19.WorldOrientation = Vector3.new(3.7918217182159424, -174.26612854003906, -170.18328857421875)
+tf_19.WorldPosition = Vector3.new(-106.4378433227539, 131.2172088623047, 142.85818481445312)
+tf_19.WorldSecondaryAxis = Vector3.new(-0.16313348710536957, -0.9832012057304382, 0.08187109977006912)
+tf_19.Name = "tf"
+tf_19.Parent = tf_18
+
+local tf_20 = Instance.new("Bone")
+tf_20.Axis = Vector3.new(0.9999997615814209, -0.0003098791930824518, -0.0005987618351355195)
+tf_20.CFrame = CFrame.fromMatrix(Vector3.new(0.0003223419189453125, -0.20590591430664062, 0.6638145446777344), Vector3.new(0.9999997615814209, -0.0003098791930824518, -0.0005987618351355195), Vector3.new(-0.0005330662243068218, -0.9071540832519531, -0.42079824209213257), Vector3.new(-0.0004127726424485445, 0.42079848051071167, -0.9071540236473083))
+tf_20.Orientation = Vector3.new(-24.885007858276367, -179.9739227294922, -179.9804229736328)
+tf_20.Position = Vector3.new(0.0003223419189453125, -0.20590591430664062, 0.6638145446777344)
+tf_20.SecondaryAxis = Vector3.new(-0.0005330662243068218, -0.9071540832519531, -0.42079824209213257)
+tf_20.Visible = false
+tf_20.WorldAxis = Vector3.new(0.9999999403953552, -0.00005911197513341904, -0.000024483364541083574)
+tf_20.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08937072753906, 135.6536865234375, 142.78057861328125), Vector3.new(0.9999999403953552, -0.00005911197513341904, -0.000024483364541083574), Vector3.new(-0.00005321124626789242, -0.9808487892150879, 0.19477081298828125), Vector3.new(-0.000035527744330465794, -0.19477081298828125, -0.9808487892150879))
+tf_20.WorldOrientation = Vector3.new(11.231334686279297, -179.9979248046875, -179.9965362548828)
+tf_20.WorldPosition = Vector3.new(-106.08937072753906, 135.6536865234375, 142.78057861328125)
+tf_20.WorldSecondaryAxis = Vector3.new(-0.00005321124626789242, -0.9808487892150879, 0.19477081298828125)
+tf_20.Name = "tf"
+tf_20.Parent = tf
+
+local tf_21 = Instance.new("Bone")
+tf_21.Axis = Vector3.new(0.9485793113708496, 0.3133779764175415, 0.044626522809267044)
+tf_21.CFrame = CFrame.fromMatrix(Vector3.new(-0.5187196731567383, 0.7474813461303711, 0.04924964904785156), Vector3.new(0.9485793113708496, 0.3133779764175415, 0.044626522809267044), Vector3.new(-0.30786702036857605, 0.8806005120277405, 0.36022302508354187), Vector3.new(0.0735878199338913, -0.35543912649154663, 0.9317981600761414))
+tf_21.Orientation = Vector3.new(20.820358276367188, 4.515503883361816, 19.589040756225586)
+tf_21.Position = Vector3.new(-0.5187196731567383, 0.7474813461303711, 0.04924964904785156)
+tf_21.SecondaryAxis = Vector3.new(-0.30786702036857605, 0.8806005120277405, 0.36022302508354187)
+tf_21.Visible = false
+tf_21.WorldAxis = Vector3.new(0.9485609531402588, -0.31612440943717957, 0.017241790890693665)
+tf_21.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.6081314086914, 134.9109649658203, 142.87786865234375), Vector3.new(0.9485609531402588, -0.31612440943717957, 0.017241790890693665), Vector3.new(-0.30792662501335144, -0.9338787198066711, -0.18180151283740997), Vector3.new(0.07357362657785416, 0.16714060306549072, -0.9831840991973877))
+tf_21.WorldOrientation = Vector3.new(-9.62160873413086, 175.72039794921875, -161.29867553710938)
+tf_21.WorldPosition = Vector3.new(-106.6081314086914, 134.9109649658203, 142.87786865234375)
+tf_21.WorldSecondaryAxis = Vector3.new(-0.30792662501335144, -0.9338787198066711, -0.18180151283740997)
+tf_21.Name = "tf"
+tf_21.Parent = tf_20
+
+local tf_22 = Instance.new("Bone")
+tf_22.Axis = Vector3.new(0.9861772656440735, -0.15893308818340302, 0.04684735834598541)
+tf_22.CFrame = CFrame.fromMatrix(Vector3.new(-0.0005555152893066406, 1.0943875312805176, 0.00115203857421875), Vector3.new(0.9861772656440735, -0.15893308818340302, 0.04684735834598541), Vector3.new(0.15557555854320526, 0.98546302318573, 0.0682557076215744), Vector3.new(-0.057014428079128265, -0.060023922473192215, 0.9965673089027405))
+tf_22.Orientation = Vector3.new(3.441185712814331, -3.27436900138855, -9.16163444519043)
+tf_22.Position = Vector3.new(-0.0005555152893066406, 1.0943875312805176, 0.00115203857421875)
+tf_22.SecondaryAxis = Vector3.new(0.15557555854320526, 0.98546302318573, 0.0682557076215744)
+tf_22.Visible = false
+tf_22.WorldAxis = Vector3.new(0.987835705280304, -0.1555003821849823, -0.0001618415117263794)
+tf_22.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.94556427001953, 133.88929748535156, 142.67776489257812), Vector3.new(0.987835705280304, -0.1555003821849823, -0.0001618415117263794), Vector3.new(-0.15085558593273163, -0.9580758213996887, -0.24358418583869934), Vector3.new(0.037722378969192505, 0.24064558744430542, -0.969879686832428))
+tf_22.WorldOrientation = Vector3.new(-13.92464542388916, 177.7726593017578, -170.781005859375)
+tf_22.WorldPosition = Vector3.new(-106.94556427001953, 133.88929748535156, 142.67776489257812)
+tf_22.WorldSecondaryAxis = Vector3.new(-0.15085558593273163, -0.9580758213996887, -0.24358418583869934)
+tf_22.Name = "tf"
+tf_22.Parent = tf_21
+
+local tf_23 = Instance.new("Bone")
+tf_23.Axis = Vector3.new(0.9907961487770081, -0.13135114312171936, 0.03270865976810455)
+tf_23.CFrame = CFrame.fromMatrix(Vector3.new(-0.0003428459167480469, 1.3305363655090332, 0.000400543212890625), Vector3.new(0.9907961487770081, -0.13135114312171936, 0.03270865976810455), Vector3.new(0.13199938833713531, 0.9910770058631897, -0.018508749082684517), Vector3.new(-0.029985656961798668, 0.022655919194221497, 0.9992935657501221))
+tf_23.Orientation = Vector3.new(-1.2981996536254883, -1.7187504768371582, -7.549625873565674)
+tf_23.Position = Vector3.new(-0.0003428459167480469, 1.3305363655090332, 0.000400543212890625)
+tf_23.SecondaryAxis = Vector3.new(0.13199938833713531, 0.9910770058631897, -0.018508749082684517)
+tf_23.Visible = false
+tf_23.WorldAxis = Vector3.new(0.9997926950454712, -0.02035363018512726, 0.00011124461889266968)
+tf_23.WorldCFrame = CFrame.fromMatrix(Vector3.new(-107.1466064453125, 132.61468505859375, 142.353271484375), Vector3.new(0.9997926950454712, -0.02035363018512726, 0.00011124461889266968), Vector3.new(-0.019813984632492065, -0.9745069146156311, -0.22348079085350037), Vector3.new(0.0046570561826229095, 0.2234322726726532, -0.9747083187103271))
+tf_23.WorldOrientation = Vector3.new(-12.910706520080566, 179.7262420654297, -178.80348205566406)
+tf_23.WorldPosition = Vector3.new(-107.1466064453125, 132.61468505859375, 142.353271484375)
+tf_23.WorldSecondaryAxis = Vector3.new(-0.019813984632492065, -0.9745069146156311, -0.22348079085350037)
+tf_23.Name = "tf"
+tf_23.Parent = tf_22
+
+local tf_24 = Instance.new("Bone")
+tf_24.CFrame = CFrame.fromMatrix(Vector3.new(0, 1.3353302478790283, -0.0000019073486328125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+tf_24.Position = Vector3.new(0, 1.3353302478790283, -0.0000019073486328125)
+tf_24.Visible = false
+tf_24.WorldAxis = Vector3.new(0.9997926950454712, -0.02035363018512726, 0.00011124461889266968)
+tf_24.WorldCFrame = CFrame.fromMatrix(Vector3.new(-107.17306518554688, 131.31341552734375, 142.05487060546875), Vector3.new(0.9997926950454712, -0.02035363018512726, 0.00011124461889266968), Vector3.new(-0.019813984632492065, -0.9745069146156311, -0.22348079085350037), Vector3.new(0.0046570561826229095, 0.2234322726726532, -0.9747083187103271))
+tf_24.WorldOrientation = Vector3.new(-12.910706520080566, 179.7262420654297, -178.80348205566406)
+tf_24.WorldPosition = Vector3.new(-107.17306518554688, 131.31341552734375, 142.05487060546875)
+tf_24.WorldSecondaryAxis = Vector3.new(-0.019813984632492065, -0.9745069146156311, -0.22348079085350037)
+tf_24.Name = "tf"
+tf_24.Parent = tf_23
+
+local messy_hair = Instance.new("Accessory")
+messy_hair.AttachmentPoint = CFrame.fromMatrix(Vector3.new(-0.05350494757294655, 0.35212579369544983, -0.08709831535816193), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+messy_hair.AttachmentPos = Vector3.new(-0.05350494757294655, 0.35212579369544983, -0.08709831535816193)
+messy_hair.Name = "Messy Hair"
+messy_hair.Parent = items
+
+local image_13 = Instance.new("IntValue")
+image_13.Value = 9951385650
+image_13.Name = "Image"
+image_13.Parent = messy_hair
+
+local rarity_13 = Instance.new("StringValue")
+rarity_13.Value = "Common"
+rarity_13.Name = "Rarity"
+rarity_13.Parent = messy_hair
+
+local thumbnail_configuration_2 = Instance.new("Configuration")
+thumbnail_configuration_2.Name = "ThumbnailConfiguration"
+thumbnail_configuration_2.Parent = messy_hair
+
+local thumbnail_camera_value_2 = Instance.new("CFrameValue")
+thumbnail_camera_value_2.Value = CFrame.fromMatrix(Vector3.new(0.3717365264892578, 0.5373742580413818, -2.0939884185791016), Vector3.new(-0.9847055673599243, -0.000007955357432365417, -0.17422674596309662), Vector3.new(-0.039292559027671814, 0.974247395992279, 0.22203165292739868), Vector3.new(0.16973818838596344, 0.22548162937164307, -0.959347128868103))
+thumbnail_camera_value_2.Name = "ThumbnailCameraValue"
+thumbnail_camera_value_2.Parent = thumbnail_configuration_2
+
+local thumbnail_cameratarget_2 = Instance.new("ObjectValue")
+thumbnail_cameratarget_2.Value = game.Workspace.items["Messy Hair"].Handle
+thumbnail_cameratarget_2.Name = "ThumbnailCameraTarget"
+thumbnail_cameratarget_2.Parent = thumbnail_configuration_2
+
+local handle_13 = Instance.new("Part")
+handle_13.BottomSurface = Enum.SurfaceType.Smooth
+handle_13.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_13.CFrame = CFrame.fromMatrix(Vector3.new(-193.098388671875, 170.3452606201172, -58.28976058959961), Vector3.new(-0.03481566905975342, 0.0000288449227809906, 0.9993938207626343), Vector3.new(-0.04038061574101448, 0.9991833567619324, -0.0014355666935443878), Vector3.new(-0.9985777139663696, -0.04040611535310745, -0.034786105155944824))
+handle_13.CollisionGroup = "Players"
+handle_13.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_13.Orientation = Vector3.new(2.315999984741211, -91.99500274658203, 0.0020000000949949026)
+handle_13.Rotation = Vector3.new(130.7259979248047, -86.94400024414062, 130.76800537109375)
+handle_13.Size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
+handle_13.TopSurface = Enum.SurfaceType.Smooth
+handle_13.size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
+handle_13.Name = "Handle"
+handle_13.Parent = messy_hair
+
+local touchtransmittertouch_interest_8 = Instance.new("Folder")
+touchtransmittertouch_interest_8.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_8.Parent = handle_13
+
+local original_size_14 = Instance.new("Vector3Value")
+original_size_14.Value = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
+original_size_14.Name = "OriginalSize"
+original_size_14.Parent = handle_13
+
+local weld = Instance.new("Weld")
+weld.C0 = CFrame.fromMatrix(Vector3.new(0, -0.6221335530281067, 0), Vector3.new(1, 0, 0), Vector3.new(0, 0, 1), Vector3.new(0, -1, 0))
+weld.C1 = CFrame.fromMatrix(Vector3.new(3.1106677055358887, 9.954136848449707, -0.6221335530281067), Vector3.new(0, 0, -1), Vector3.new(1, 0, 0), Vector3.new(0, -1, 0))
+weld.Part0 = handle_13
+weld.Parent = handle_13
+
+local hair_attachment_6 = Instance.new("Attachment")
+hair_attachment_6.CFrame = CFrame.fromMatrix(Vector3.new(-0.025800708681344986, 0.22639885544776917, -0.04199981689453125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_6.Position = Vector3.new(-0.025800708681344986, 0.22639885544776917, -0.04199981689453125)
+hair_attachment_6.Visible = false
+hair_attachment_6.WorldAxis = Vector3.new(-0.03481566905975342, 0.0000288449227809906, 0.9993938207626343)
+hair_attachment_6.WorldCFrame = CFrame.fromMatrix(Vector3.new(-193.064697265625, 170.5731658935547, -58.31441116333008), Vector3.new(-0.03481566905975342, 0.0000288449227809906, 0.9993938207626343), Vector3.new(-0.04038061574101448, 0.9991833567619324, -0.0014355666935443878), Vector3.new(-0.9985777139663696, -0.04040611535310745, -0.034786105155944824))
+hair_attachment_6.WorldOrientation = Vector3.new(2.315730333328247, -91.99513244628906, 0.0016540430951863527)
+hair_attachment_6.WorldPosition = Vector3.new(-193.064697265625, 170.5731658935547, -58.31441116333008)
+hair_attachment_6.WorldSecondaryAxis = Vector3.new(-0.04038061574101448, 0.9991833567619324, -0.0014355666935443878)
+hair_attachment_6.Name = "HairAttachment"
+hair_attachment_6.Parent = handle_13
+
+local avatar_part_scale_type_2 = Instance.new("StringValue")
+avatar_part_scale_type_2.Value = "Classic"
+avatar_part_scale_type_2.Name = "AvatarPartScaleType"
+avatar_part_scale_type_2.Parent = handle_13
+
+local special_mesh_2 = Instance.new("SpecialMesh")
+special_mesh_2.MeshType = Enum.MeshType.FileMesh
+special_mesh_2.MeshId = "rbxassetid://7259065617"
+special_mesh_2.TextureId = "http://www.roblox.com/asset/?id=7104179851"
+special_mesh_2.Offset = Vector3.new(0, 0, -0.06221335753798485)
+special_mesh_2.Scale = Vector3.new(0.699999988079071, 0.699999988079071, 0.699999988079071)
+special_mesh_2.Name = "SpecialMesh"
+special_mesh_2.Parent = handle_13
+
+handle_13.Touched:Connect(function()end)
+local touch_interest_8 = handle_13:WaitForChild("TouchInterest")
+
+local mohawk = Instance.new("Accessory")
+mohawk.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, -0.25, 0.10000000149011612), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+mohawk.AttachmentPos = Vector3.new(0, -0.25, 0.10000000149011612)
+mohawk.Name = "Mohawk"
+mohawk.Parent = items
+
+local rarity_14 = Instance.new("StringValue")
+rarity_14.Value = "Common"
+rarity_14.Name = "Rarity"
+rarity_14.Parent = mohawk
+
+local image_14 = Instance.new("IntValue")
+image_14.Value = 15923086629
+image_14.Name = "Image"
+image_14.Parent = mohawk
+
+local handle_14 = Instance.new("Part")
+handle_14.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_14.BottomSurface = Enum.SurfaceType.Smooth
+handle_14.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_14.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.4910888671875, 141.86337280273438), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_14.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_14.Size = Vector3.new(1, 1.2000000476837158, 1)
+handle_14.TopSurface = Enum.SurfaceType.Smooth
+handle_14.size = Vector3.new(1, 1.2000000476837158, 1)
+handle_14.Name = "Handle"
+handle_14.Parent = mohawk
+
+local touchtransmittertouch_interest_9 = Instance.new("Folder")
+touchtransmittertouch_interest_9.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_9.Parent = handle_14
+
+local original_size_15 = Instance.new("Vector3Value")
+original_size_15.Value = Vector3.new(1, 1.2000000476837158, 1)
+original_size_15.Name = "OriginalSize"
+original_size_15.Parent = handle_14
+
+local original_size_16 = Instance.new("Vector3Value")
+original_size_16.Value = Vector3.new(1, 1.2000000476837158, 1)
+original_size_16.Name = "OriginalSize"
+original_size_16.Parent = handle_14
+
+local mesh_11 = Instance.new("SpecialMesh")
+mesh_11.MeshType = Enum.MeshType.FileMesh
+mesh_11.MeshId = "http://www.roblox.com/asset/?id=11185882"
+mesh_11.TextureId = "http://www.roblox.com/asset/?id=33149155"
+mesh_11.Scale = Vector3.new(0.699999988079071, 0.699999988079071, 0.699999988079071)
+mesh_11.Parent = handle_14
+
+handle_14.Touched:Connect(function()end)
+local touch_interest_9 = handle_14:WaitForChild("TouchInterest")
+
+local pink_fluffy_hair = Instance.new("Accessory")
+pink_fluffy_hair.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0.003551483154296875, 0.5050263404846191, -0.1208566427230835), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+pink_fluffy_hair.AttachmentPos = Vector3.new(0.003551483154296875, 0.5050263404846191, -0.1208566427230835)
+pink_fluffy_hair.Name = "Pink Fluffy Hair"
+pink_fluffy_hair.Parent = items
+
+local rarity_15 = Instance.new("StringValue")
+rarity_15.Value = "Uncommon"
+rarity_15.Name = "Rarity"
+rarity_15.Parent = pink_fluffy_hair
+
+local image_15 = Instance.new("IntValue")
+image_15.Value = 79153929847531
+image_15.Name = "Image"
+image_15.Parent = pink_fluffy_hair
+
+local thumbnail_configuration_3 = Instance.new("Configuration")
+thumbnail_configuration_3.Name = "ThumbnailConfiguration"
+thumbnail_configuration_3.Parent = pink_fluffy_hair
+
+local thumbnail_camera_value_3 = Instance.new("CFrameValue")
+thumbnail_camera_value_3.Value = CFrame.fromMatrix(Vector3.new(-0.03909015655517578, 0.540083110332489, -2.257904052734375), Vector3.new(-0.9998506307601929, -0.000039807986468076706, 0.01729174330830574), Vector3.new(0.0039831544272601604, 0.9725751876831055, 0.23255465924739838), Vector3.new(-0.016826778650283813, 0.2325887531042099, -0.9724297523498535))
+thumbnail_camera_value_3.Name = "ThumbnailCameraValue"
+thumbnail_camera_value_3.Parent = thumbnail_configuration_3
+
+local thumbnail_cameratarget_3 = Instance.new("ObjectValue")
+thumbnail_cameratarget_3.Value = game.Workspace.items["Pink Fluffy Hair"].Handle
+thumbnail_cameratarget_3.Name = "ThumbnailCameraTarget"
+thumbnail_cameratarget_3.Parent = thumbnail_configuration_3
+
+local handle_15 = Instance.new("Part")
+handle_15.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_15.BottomSurface = Enum.SurfaceType.Smooth
+handle_15.CFrame = CFrame.fromMatrix(Vector3.new(-106.09294128417969, 135.8360595703125, 142.08395385742188), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_15.Size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
+handle_15.TopSurface = Enum.SurfaceType.Smooth
+handle_15.size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
+handle_15.Name = "Handle"
+handle_15.Parent = pink_fluffy_hair
+
+local touchtransmittertouch_interest_10 = Instance.new("Folder")
+touchtransmittertouch_interest_10.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_10.Parent = handle_15
+
+local original_size_17 = Instance.new("Vector3Value")
+original_size_17.Value = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
+original_size_17.Name = "OriginalSize"
+original_size_17.Parent = handle_15
+
+local hair_attachment_7 = Instance.new("Attachment")
+hair_attachment_7.CFrame = CFrame.fromMatrix(Vector3.new(0.0035514833871275187, 0.5050263404846191, -0.12085665017366409), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_7.Position = Vector3.new(0.0035514833871275187, 0.5050263404846191, -0.12085665017366409)
+hair_attachment_7.Visible = false
+hair_attachment_7.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34107971191406, 141.96310424804688), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_7.WorldPosition = Vector3.new(-106.08938598632812, 136.34107971191406, 141.96310424804688)
+hair_attachment_7.Name = "HairAttachment"
+hair_attachment_7.Parent = handle_15
+
+local avatar_part_scale_type_3 = Instance.new("StringValue")
+avatar_part_scale_type_3.Value = "Classic"
+avatar_part_scale_type_3.Name = "AvatarPartScaleType"
+avatar_part_scale_type_3.Parent = handle_15
+
+local mesh_12 = Instance.new("SpecialMesh")
+mesh_12.MeshType = Enum.MeshType.FileMesh
+mesh_12.MeshId = "rbxassetid://4997255584"
+mesh_12.TextureId = "http://www.roblox.com/asset/?id=4747970269"
+mesh_12.Scale = Vector3.new(0.800000011920929, 0.800000011920929, 0.800000011920929)
+mesh_12.Parent = handle_15
+
+handle_15.Touched:Connect(function()end)
+local touch_interest_10 = handle_15:WaitForChild("TouchInterest")
+
+local side_fade = Instance.new("Accessory")
+side_fade.AttachmentPoint = CFrame.fromMatrix(Vector3.new(-0.002093195915222168, 0.29215002059936523, -0.068817138671875), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+side_fade.AttachmentPos = Vector3.new(-0.002093195915222168, 0.29215002059936523, -0.068817138671875)
+side_fade.Name = "Side Fade"
+side_fade.Parent = items
+
+local rarity_16 = Instance.new("StringValue")
+rarity_16.Value = "Uncommon"
+rarity_16.Name = "Rarity"
+rarity_16.Parent = side_fade
+
+local image_16 = Instance.new("IntValue")
+image_16.Value = 17339430369
+image_16.Name = "Image"
+image_16.Parent = side_fade
+
+local handle_16 = Instance.new("Part")
+handle_16.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_16.BottomSurface = Enum.SurfaceType.Smooth
+handle_16.CFrame = CFrame.fromMatrix(Vector3.new(-106.08729553222656, 136.04893493652344, 142.03192138671875), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_16.Size = Vector3.new(1, 1, 1)
+handle_16.TopSurface = Enum.SurfaceType.Smooth
+handle_16.size = Vector3.new(1, 1, 1)
+handle_16.Name = "Handle"
+handle_16.Parent = side_fade
+
+local original_size_18 = Instance.new("Vector3Value")
+original_size_18.Value = Vector3.new(1, 1, 1)
+original_size_18.Name = "OriginalSize"
+original_size_18.Parent = handle_16
+
+local hair_attachment_8 = Instance.new("Attachment")
+hair_attachment_8.CFrame = CFrame.fromMatrix(Vector3.new(-0.002093195915222168, 0.29215002059936523, -0.068817138671875), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_8.Position = Vector3.new(-0.002093195915222168, 0.29215002059936523, -0.068817138671875)
+hair_attachment_8.Visible = false
+hair_attachment_8.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34107971191406, 141.96310424804688), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_8.WorldPosition = Vector3.new(-106.08938598632812, 136.34107971191406, 141.96310424804688)
+hair_attachment_8.Name = "HairAttachment"
+hair_attachment_8.Parent = handle_16
+
+local avatar_part_scale_type_4 = Instance.new("StringValue")
+avatar_part_scale_type_4.Value = "Classic"
+avatar_part_scale_type_4.Name = "AvatarPartScaleType"
+avatar_part_scale_type_4.Parent = handle_16
+
+local special_mesh_3 = Instance.new("SpecialMesh")
+special_mesh_3.MeshType = Enum.MeshType.FileMesh
+special_mesh_3.MeshId = "rbxassetid://3711286040"
+special_mesh_3.TextureId = "rbxassetid://3711286951"
+special_mesh_3.Offset = Vector3.new(0, 0.05999999865889549, -0.04899999871850014)
+special_mesh_3.Scale = Vector3.new(0.675000011920929, 0.699999988079071, 0.75)
+special_mesh_3.Name = "SpecialMesh"
+special_mesh_3.Parent = handle_16
+
+local styled_hair = Instance.new("Accessory")
+styled_hair.AttachmentForward = Vector3.new(-1, 0, -0)
+styled_hair.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 0.30000001192092896, 0), Vector3.new(0, 0, -1), Vector3.new(0, 1, 0), Vector3.new(1, -0, 0))
+styled_hair.AttachmentPos = Vector3.new(0, 0.30000001192092896, 0)
+styled_hair.AttachmentRight = Vector3.new(0, 0, -1)
+styled_hair.Name = "Styled Hair"
+styled_hair.Parent = items
+
+local rarity_17 = Instance.new("StringValue")
+rarity_17.Value = "Common"
+rarity_17.Name = "Rarity"
+rarity_17.Parent = styled_hair
+
+local image_17 = Instance.new("IntValue")
+image_17.Value = 17339574649
+image_17.Name = "Image"
+image_17.Parent = styled_hair
+
+local thumbnail_configuration_4 = Instance.new("Configuration")
+thumbnail_configuration_4.Name = "ThumbnailConfiguration"
+thumbnail_configuration_4.Parent = styled_hair
+
+local thumbnail_camera_value_4 = Instance.new("CFrameValue")
+thumbnail_camera_value_4.Value = CFrame.fromMatrix(Vector3.new(-1.6152429580688477, 0.1999361515045166, 0.44283461570739746), Vector3.new(0.2683908939361572, 0.000003840774297714233, 0.9633101224899292), Vector3.new(0.10789883136749268, 0.9937071204185486, -0.030066002160310745), Vector3.new(-0.9572482109069824, 0.11200948059558868, 0.26670151948928833))
+thumbnail_camera_value_4.Name = "ThumbnailCameraValue"
+thumbnail_camera_value_4.Parent = thumbnail_configuration_4
+
+local thumbnail_cameratarget_4 = Instance.new("ObjectValue")
+thumbnail_cameratarget_4.Value = game.Workspace.items["Styled Hair"].Handle
+thumbnail_cameratarget_4.Name = "ThumbnailCameraTarget"
+thumbnail_cameratarget_4.Parent = thumbnail_configuration_4
+
+local handle_17 = Instance.new("Part")
+handle_17.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_17.BottomSurface = Enum.SurfaceType.Smooth
+handle_17.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.0410919189453, 141.96310424804688), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
+handle_17.Orientation = Vector3.new(0, -90, 0)
+handle_17.Rotation = Vector3.new(0, -90, 0)
+handle_17.Size = Vector3.new(1, 1, 1)
+handle_17.TopSurface = Enum.SurfaceType.Smooth
+handle_17.size = Vector3.new(1, 1, 1)
+handle_17.Name = "Handle"
+handle_17.Parent = styled_hair
+
+local original_size_19 = Instance.new("Vector3Value")
+original_size_19.Value = Vector3.new(1, 1, 1)
+original_size_19.Name = "OriginalSize"
+original_size_19.Parent = handle_17
+
+local hair_attachment_9 = Instance.new("Attachment")
+hair_attachment_9.Axis = Vector3.new(0, 0, -1)
+hair_attachment_9.CFrame = CFrame.fromMatrix(Vector3.new(0, 0.30000001192092896, 0), Vector3.new(0, 0, -1), Vector3.new(0, 1, 0), Vector3.new(1, -0, 0))
+hair_attachment_9.Orientation = Vector3.new(0, 90, 0)
+hair_attachment_9.Position = Vector3.new(0, 0.30000001192092896, 0)
+hair_attachment_9.Visible = false
+hair_attachment_9.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_9.WorldPosition = Vector3.new(-106.08938598632812, 136.34109497070312, 141.96310424804688)
+hair_attachment_9.Name = "HairAttachment"
+hair_attachment_9.Parent = handle_17
+
+local avatar_part_scale_type_5 = Instance.new("StringValue")
+avatar_part_scale_type_5.Value = "Classic"
+avatar_part_scale_type_5.Name = "AvatarPartScaleType"
+avatar_part_scale_type_5.Parent = handle_17
+
+local special_mesh_4 = Instance.new("SpecialMesh")
+special_mesh_4.MeshType = Enum.MeshType.FileMesh
+special_mesh_4.MeshId = "rbxassetid://5130015250"
+special_mesh_4.TextureId = "rbxassetid://5090243961"
+special_mesh_4.Scale = Vector3.new(0.8100000023841858, 0.8500000238418579, 0.699999988079071)
+special_mesh_4.Name = "SpecialMesh"
+special_mesh_4.Parent = handle_17
+
+local trecky_hair = Instance.new("Accessory")
+trecky_hair.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 0.20000000298023224, 0), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+trecky_hair.AttachmentPos = Vector3.new(0, 0.20000000298023224, 0)
+trecky_hair.Name = "Trecky Hair"
+trecky_hair.Parent = items
+
+local image_18 = Instance.new("IntValue")
+image_18.Value = 14865600956
+image_18.Name = "Image"
+image_18.Parent = trecky_hair
+
+local rarity_18 = Instance.new("StringValue")
+rarity_18.Value = "Common"
+rarity_18.Name = "Rarity"
+rarity_18.Parent = trecky_hair
+
+local handle_18 = Instance.new("Part")
+handle_18.BottomSurface = Enum.SurfaceType.Smooth
+handle_18.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_18.CFrame = CFrame.fromMatrix(Vector3.new(-123.2180404663086, 170.2656707763672, -54.214630126953125), Vector3.new(0.21561557054519653, -0.00003641657531261444, 0.9764783978462219), Vector3.new(-0.037581950426101685, 0.9992587566375732, 0.008335717022418976), Vector3.new(-0.9757549166679382, -0.038495272397994995, 0.21545439958572388))
+handle_18.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_18.Locked = true
+handle_18.Orientation = Vector3.new(2.2060000896453857, -77.5479965209961, -0.0020000000949949026)
+handle_18.Rotation = Vector3.new(10.130000114440918, -77.35800170898438, 9.88700008392334)
+handle_18.Size = Vector3.new(1, 1, 1)
+handle_18.TopSurface = Enum.SurfaceType.Smooth
+handle_18.size = Vector3.new(1, 1, 1)
+handle_18.Name = "Handle"
+handle_18.Parent = trecky_hair
+
+local touchtransmittertouch_interest_11 = Instance.new("Folder")
+touchtransmittertouch_interest_11.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_11.Parent = handle_18
+
+local original_size_20 = Instance.new("Vector3Value")
+original_size_20.Value = Vector3.new(1, 1, 1)
+original_size_20.Name = "OriginalSize"
+original_size_20.Parent = handle_18
+
+local hair_attachment_10 = Instance.new("Attachment")
+hair_attachment_10.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.2999997138977051, -0.0002722442150115967), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+hair_attachment_10.Position = Vector3.new(8.658389560878277e-09, 0.2999997138977051, -0.0002722442150115967)
+hair_attachment_10.Visible = false
+hair_attachment_10.WorldAxis = Vector3.new(0.21561557054519653, -0.00003641657531261444, 0.9764783978462219)
+hair_attachment_10.WorldCFrame = CFrame.fromMatrix(Vector3.new(-123.22904968261719, 170.56546020507812, -54.212188720703125), Vector3.new(0.21561557054519653, -0.00003641657531261444, 0.9764783978462219), Vector3.new(-0.037581950426101685, 0.9992587566375732, 0.008335717022418976), Vector3.new(-0.9757549166679382, -0.038495272397994995, 0.21545439958572388))
+hair_attachment_10.WorldOrientation = Vector3.new(2.2061617374420166, -77.5484390258789, -0.0020880636293441057)
+hair_attachment_10.WorldPosition = Vector3.new(-123.22904968261719, 170.56546020507812, -54.212188720703125)
+hair_attachment_10.WorldSecondaryAxis = Vector3.new(-0.037581950426101685, 0.9992587566375732, 0.008335717022418976)
+hair_attachment_10.Name = "HairAttachment"
+hair_attachment_10.Parent = handle_18
+
+local mesh_13 = Instance.new("SpecialMesh")
+mesh_13.MeshType = Enum.MeshType.FileMesh
+mesh_13.MeshId = "http://www.roblox.com/asset/?id=29938421"
+mesh_13.TextureId = "http://www.roblox.com/asset/?id=29938532"
+mesh_13.Offset = Vector3.new(0, 0, -0.125)
+mesh_13.Scale = Vector3.new(0.699999988079071, 0.800000011920929, 0.949999988079071)
+mesh_13.Parent = handle_18
+
+handle_18.Touched:Connect(function()end)
+local touch_interest_11 = handle_18:WaitForChild("TouchInterest")
+
+local clockwork_shades = Instance.new("Accessory")
+clockwork_shades.AttachmentPoint = CFrame.fromMatrix(Vector3.new(0, 0.25999999046325684, 0.15000000596046448), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+clockwork_shades.AttachmentPos = Vector3.new(0, 0.25999999046325684, 0.15000000596046448)
+clockwork_shades.Name = "Clockwork Shades"
+clockwork_shades.Parent = items
+
+local rarity_19 = Instance.new("StringValue")
+rarity_19.Value = "Rare"
+rarity_19.Name = "Rarity"
+rarity_19.Parent = clockwork_shades
+
+local image_19 = Instance.new("IntValue")
+image_19.Value = 1500351339
+image_19.Name = "Image"
+image_19.Parent = clockwork_shades
+
+local handle_19 = Instance.new("Part")
+handle_19.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_19.BottomSurface = Enum.SurfaceType.Smooth
+handle_19.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_19.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 135.98109436035156, 141.81338500976562), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_19.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_19.Size = Vector3.new(1, 1.600000023841858, 1)
+handle_19.TopSurface = Enum.SurfaceType.Smooth
+handle_19.size = Vector3.new(1, 1.600000023841858, 1)
+handle_19.Name = "Handle"
+handle_19.Parent = clockwork_shades
+
+local touchtransmittertouch_interest_12 = Instance.new("Folder")
+touchtransmittertouch_interest_12.Name = "[TouchTransmitter] TouchInterest"
+touchtransmittertouch_interest_12.Parent = handle_19
+
+local original_size_21 = Instance.new("Vector3Value")
+original_size_21.Value = Vector3.new(1, 1.600000023841858, 1)
+original_size_21.Name = "OriginalSize"
+original_size_21.Parent = handle_19
+
+local facefront_attachment = Instance.new("Attachment")
+facefront_attachment.CFrame = CFrame.fromMatrix(Vector3.new(3.9353835745714605e-09, -0.23999977111816406, -0.4502722918987274), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+facefront_attachment.Position = Vector3.new(3.9353835745714605e-09, -0.23999977111816406, -0.4502722918987274)
+facefront_attachment.Visible = false
+facefront_attachment.WorldCFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 135.7410888671875, 141.3631134033203), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+facefront_attachment.WorldPosition = Vector3.new(-106.08938598632812, 135.7410888671875, 141.3631134033203)
+facefront_attachment.Name = "FaceFrontAttachment"
+facefront_attachment.Parent = handle_19
+
+local mesh_14 = Instance.new("SpecialMesh")
+mesh_14.MeshType = Enum.MeshType.FileMesh
+mesh_14.MeshId = "http://www.roblox.com/asset/?id=1577360"
+mesh_14.TextureId = "http://www.roblox.com/asset/?id=1577349"
+mesh_14.Offset = Vector3.new(0, 0.07500000298023224, 0)
+mesh_14.Scale = Vector3.new(0.6700000166893005, 0.800000011920929, 1)
+mesh_14.Parent = handle_19
+
+handle_19.Touched:Connect(function()end)
+local touch_interest_12 = handle_19:WaitForChild("TouchInterest")
