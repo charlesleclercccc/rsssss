@@ -5,10 +5,7 @@
 ```
 --brb rewriting and making v2
 ```
-
-
-*if this lags for you, go to https://raw.githubusercontent.com/charlesleclercccc/rsssss/refs/heads/main/script and copy paste the code in there into your executor*
-### to access configs go to: executor\workspace\RSS-Debug\main\settings
+### to access configs go to: executor\workspace\RSS Debug ðŸ› ï¸\V2\settings
 
 swift: ✅
 argon: ✅
