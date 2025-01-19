@@ -5,3 +5,6 @@
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/charlesleclercccc/rsssss/refs/heads/main/script"))()
 ```
+
+
+*if this lags for you, go to https://raw.githubusercontent.com/charlesleclercccc/rsssss/refs/heads/main/script and copy paste the code in there into your executor*
