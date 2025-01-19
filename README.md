@@ -3,13 +3,7 @@
 
 **to use, execute script below:**
 ```
-getgenv().hascleats = false -- set to true if you have cleats on
-getgenv().laggymode = false --[[
-HAS TO BE EITHER:
-false - full version
-outfield - outfield features
-goalkeeper - goalkeeper features + some outfield features
-]]
+--brb rewriting and making v2
 ```
 
 
