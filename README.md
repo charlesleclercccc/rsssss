@@ -4,8 +4,12 @@
 **to use, execute script below:**
 ```
 getgenv().hascleats = false -- set to true if you have cleats on
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/charlesleclercccc/rsssss/refs/heads/main/script"))()
+getgenv().laggymode = false --[[
+HAS TO BE EITHER:
+false - full version
+outfield - outfield features
+goalkeeper - goalkeeper features + some outfield features
+]]
 ```
 
 
