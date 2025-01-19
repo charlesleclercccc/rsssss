@@ -1,22 +1,3 @@
---[[
-RRRRRRRRRRRRRRRRR      SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS      DDDDDDDDDDDDD      EEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBB   UUUUUUUU     UUUUUUUU       GGGGGGGGGGGGG     
-R::::::::::::::::R   SS:::::::::::::::S SS:::::::::::::::S     D::::::::::::DDD   E::::::::::::::::::::EB::::::::::::::::B  U::::::U     U::::::U    GGG::::::::::::G     
-R::::::RRRRRR:::::R S:::::SSSSSS::::::SS:::::SSSSSS::::::S     D:::::::::::::::DD E::::::::::::::::::::EB::::::BBBBBB:::::B U::::::U     U::::::U  GG:::::::::::::::G     
-RR:::::R     R:::::RS:::::S     SSSSSSSS:::::S     SSSSSSS     DDD:::::DDDDD:::::DEE::::::EEEEEEEEE::::EBB:::::B     B:::::BUU:::::U     U:::::UU G:::::GGGGGGGG::::G     
-  R::::R     R:::::RS:::::S            S:::::S                   D:::::D    D:::::D E:::::E       EEEEEE  B::::B     B:::::B U:::::U     U:::::U G:::::G       GGGGGG     
-  R::::R     R:::::RS:::::S            S:::::S                   D:::::D     D:::::DE:::::E               B::::B     B:::::B U:::::D     D:::::UG:::::G                   
-  R::::RRRRRR:::::R  S::::SSSS          S::::SSSS                D:::::D     D:::::DE::::::EEEEEEEEEE     B::::BBBBBB:::::B  U:::::D     D:::::UG:::::G                   
-  R:::::::::::::RR    SS::::::SSSSS      SS::::::SSSSS           D:::::D     D:::::DE:::::::::::::::E     B:::::::::::::BB   U:::::D     D:::::UG:::::G    GGGGGGGGGG     
-  R::::RRRRRR:::::R     SSS::::::::SS      SSS::::::::SS         D:::::D     D:::::DE:::::::::::::::E     B::::BBBBBB:::::B  U:::::D     D:::::UG:::::G    G::::::::G     
-  R::::R     R:::::R       SSSSSS::::S        SSSSSS::::S        D:::::D     D:::::DE::::::EEEEEEEEEE     B::::B     B:::::B U:::::D     D:::::UG:::::G    GGGGG::::G     
-  R::::R     R:::::R            S:::::S            S:::::S       D:::::D     D:::::DE:::::E               B::::B     B:::::B U:::::D     D:::::UG:::::G        G::::G     
-  R::::R     R:::::R            S:::::S            S:::::S       D:::::D    D:::::D E:::::E       EEEEEE  B::::B     B:::::B U::::::U   U::::::U G:::::G       G::::G     
-RR:::::R     R:::::RSSSSSSS     S:::::SSSSSSSS     S:::::S     DDD:::::DDDDD:::::DEE::::::EEEEEEEE:::::EBB:::::BBBBBB::::::B U:::::::UUU:::::::U  G:::::GGGGGGGG::::G     
-R::::::R     R:::::RS::::::SSSSSS:::::SS::::::SSSSSS:::::S     D:::::::::::::::DD E::::::::::::::::::::EB:::::::::::::::::B   UU:::::::::::::UU    GG:::::::::::::::G     
-R::::::R     R:::::RS:::::::::::::::SS S:::::::::::::::SS      D::::::::::::DDD   E::::::::::::::::::::EB::::::::::::::::B      UU:::::::::UU        GGG::::::GGG:::G     
-RRRRRRRR     RRRRRRR SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS        DDDDDDDDDDDDD      EEEEEEEEEEEEEEEEEEEEEEBBBBBBBBBBBBBBBBB         UUUUUUUUU             GGGGGG   GGGG     
-]]
-
 getgenv().hascleats = false -- set to true if you have cleats on
 
 -- script below (obfuscated)
