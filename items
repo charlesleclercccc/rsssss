@@ -460,6 +460,19 @@ dreads.AttachmentPos = Vector3.new(0.004974365234375, 0.6884424686431885, -0.090
 dreads.Name = "Dreads"
 dreads.Parent = items
 
+local handle_10 = Instance.new("Part")
+handle_10.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_10.BottomSurface = Enum.SurfaceType.Smooth
+handle_10.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_10.CFrame = CFrame.fromMatrix(Vector3.new(-106.0943603515625, 135.65264892578125, 142.0538330078125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_10.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_10.Locked = true
+handle_10.Size = Vector3.new(1, 1, 1)
+handle_10.TopSurface = Enum.SurfaceType.Smooth
+handle_10.Size = Vector3.new(1, 1, 1)
+handle_10.Name = "Handle"
+handle_10.Parent = dreads
+
 local rarity_10 = Instance.new("StringValue")
 rarity_10.Value = "Common"
 rarity_10.Name = "Rarity"
@@ -480,22 +493,9 @@ thumbnail_camera_value.Name = "ThumbnailCameraValue"
 thumbnail_camera_value.Parent = thumbnail_configuration
 
 local thumbnail_cameratarget = Instance.new("ObjectValue")
-thumbnail_cameratarget.Value = game.Workspace.items.Dreads.Handle
+thumbnail_cameratarget.Value = dreads.Handle
 thumbnail_cameratarget.Name = "ThumbnailCameraTarget"
 thumbnail_cameratarget.Parent = thumbnail_configuration
-
-local handle_10 = Instance.new("Part")
-handle_10.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
-handle_10.BottomSurface = Enum.SurfaceType.Smooth
-handle_10.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
-handle_10.CFrame = CFrame.fromMatrix(Vector3.new(-106.0943603515625, 135.65264892578125, 142.0538330078125), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
-handle_10.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
-handle_10.Locked = true
-handle_10.Size = Vector3.new(1, 1, 1)
-handle_10.TopSurface = Enum.SurfaceType.Smooth
-handle_10.Size = Vector3.new(1, 1, 1)
-handle_10.Name = "Handle"
-handle_10.Parent = dreads
 
 local touchtransmittertouch_interest_6 = Instance.new("Folder")
 touchtransmittertouch_interest_6.Name = "[TouchTransmitter] TouchInterest"
@@ -976,6 +976,20 @@ messy_hair.AttachmentPos = Vector3.new(-0.05350494757294655, 0.35212579369544983
 messy_hair.Name = "Messy Hair"
 messy_hair.Parent = items
 
+local handle_13 = Instance.new("Part")
+handle_13.BottomSurface = Enum.SurfaceType.Smooth
+handle_13.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
+handle_13.CFrame = CFrame.fromMatrix(Vector3.new(-193.098388671875, 170.3452606201172, -58.28976058959961), Vector3.new(-0.03481566905975342, 0.0000288449227809906, 0.9993938207626343), Vector3.new(-0.04038061574101448, 0.9991833567619324, -0.0014355666935443878), Vector3.new(-0.9985777139663696, -0.04040611535310745, -0.034786105155944824))
+handle_13.CollisionGroup = "Players"
+handle_13.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+handle_13.Orientation = Vector3.new(2.315999984741211, -91.99500274658203, 0.0020000000949949026)
+handle_13.Rotation = Vector3.new(130.7259979248047, -86.94400024414062, 130.76800537109375)
+handle_13.Size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
+handle_13.TopSurface = Enum.SurfaceType.Smooth
+handle_13.Size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
+handle_13.Name = "Handle"
+handle_13.Parent = messy_hair
+
 local image_13 = Instance.new("IntValue")
 image_13.Value = 9951385650
 image_13.Name = "Image"
@@ -996,23 +1010,9 @@ thumbnail_camera_value_2.Name = "ThumbnailCameraValue"
 thumbnail_camera_value_2.Parent = thumbnail_configuration_2
 
 local thumbnail_cameratarget_2 = Instance.new("ObjectValue")
-thumbnail_cameratarget_2.Value = game.Workspace.items["Messy Hair"].Handle
+thumbnail_cameratarget_2.Value = messy_hair.Handle
 thumbnail_cameratarget_2.Name = "ThumbnailCameraTarget"
 thumbnail_cameratarget_2.Parent = thumbnail_configuration_2
-
-local handle_13 = Instance.new("Part")
-handle_13.BottomSurface = Enum.SurfaceType.Smooth
-handle_13.BrickColor = BrickColor.new(0.06666667014360428, 0.06666667014360428, 0.06666667014360428)
-handle_13.CFrame = CFrame.fromMatrix(Vector3.new(-193.098388671875, 170.3452606201172, -58.28976058959961), Vector3.new(-0.03481566905975342, 0.0000288449227809906, 0.9993938207626343), Vector3.new(-0.04038061574101448, 0.9991833567619324, -0.0014355666935443878), Vector3.new(-0.9985777139663696, -0.04040611535310745, -0.034786105155944824))
-handle_13.CollisionGroup = "Players"
-handle_13.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
-handle_13.Orientation = Vector3.new(2.315999984741211, -91.99500274658203, 0.0020000000949949026)
-handle_13.Rotation = Vector3.new(130.7259979248047, -86.94400024414062, 130.76800537109375)
-handle_13.Size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
-handle_13.TopSurface = Enum.SurfaceType.Smooth
-handle_13.Size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
-handle_13.Name = "Handle"
-handle_13.Parent = messy_hair
 
 local touchtransmittertouch_interest_8 = Instance.new("Folder")
 touchtransmittertouch_interest_8.Name = "[TouchTransmitter] TouchInterest"
@@ -1116,6 +1116,16 @@ pink_fluffy_hair.AttachmentPos = Vector3.new(0.003551483154296875, 0.50502634048
 pink_fluffy_hair.Name = "Pink Fluffy Hair"
 pink_fluffy_hair.Parent = items
 
+local handle_15 = Instance.new("Part")
+handle_15.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_15.BottomSurface = Enum.SurfaceType.Smooth
+handle_15.CFrame = CFrame.fromMatrix(Vector3.new(-106.09294128417969, 135.8360595703125, 142.08395385742188), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
+handle_15.Size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
+handle_15.TopSurface = Enum.SurfaceType.Smooth
+handle_15.Size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
+handle_15.Name = "Handle"
+handle_15.Parent = pink_fluffy_hair
+
 local rarity_15 = Instance.new("StringValue")
 rarity_15.Value = "Uncommon"
 rarity_15.Name = "Rarity"
@@ -1136,19 +1146,9 @@ thumbnail_camera_value_3.Name = "ThumbnailCameraValue"
 thumbnail_camera_value_3.Parent = thumbnail_configuration_3
 
 local thumbnail_cameratarget_3 = Instance.new("ObjectValue")
-thumbnail_cameratarget_3.Value = game.Workspace.items["Pink Fluffy Hair"].Handle
+thumbnail_cameratarget_3.Value = pink_fluffy_hair.Handle
 thumbnail_cameratarget_3.Name = "ThumbnailCameraTarget"
 thumbnail_cameratarget_3.Parent = thumbnail_configuration_3
-
-local handle_15 = Instance.new("Part")
-handle_15.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
-handle_15.BottomSurface = Enum.SurfaceType.Smooth
-handle_15.CFrame = CFrame.fromMatrix(Vector3.new(-106.09294128417969, 135.8360595703125, 142.08395385742188), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
-handle_15.Size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
-handle_15.TopSurface = Enum.SurfaceType.Smooth
-handle_15.Size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
-handle_15.Name = "Handle"
-handle_15.Parent = pink_fluffy_hair
 
 local touchtransmittertouch_interest_10 = Instance.new("Folder")
 touchtransmittertouch_interest_10.Name = "[TouchTransmitter] TouchInterest"
@@ -1245,6 +1245,18 @@ styled_hair.AttachmentRight = Vector3.new(0, 0, -1)
 styled_hair.Name = "Styled Hair"
 styled_hair.Parent = items
 
+local handle_17 = Instance.new("Part")
+handle_17.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
+handle_17.BottomSurface = Enum.SurfaceType.Smooth
+handle_17.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.0410919189453, 141.96310424804688), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
+handle_17.Orientation = Vector3.new(0, -90, 0)
+handle_17.Rotation = Vector3.new(0, -90, 0)
+handle_17.Size = Vector3.new(1, 1, 1)
+handle_17.TopSurface = Enum.SurfaceType.Smooth
+handle_17.Size = Vector3.new(1, 1, 1)
+handle_17.Name = "Handle"
+handle_17.Parent = styled_hair
+
 local rarity_17 = Instance.new("StringValue")
 rarity_17.Value = "Common"
 rarity_17.Name = "Rarity"
@@ -1265,21 +1277,9 @@ thumbnail_camera_value_4.Name = "ThumbnailCameraValue"
 thumbnail_camera_value_4.Parent = thumbnail_configuration_4
 
 local thumbnail_cameratarget_4 = Instance.new("ObjectValue")
-thumbnail_cameratarget_4.Value = game.Workspace.items["Styled Hair"].Handle
+thumbnail_cameratarget_4.Value = styled_hair.Handle
 thumbnail_cameratarget_4.Name = "ThumbnailCameraTarget"
 thumbnail_cameratarget_4.Parent = thumbnail_configuration_4
-
-local handle_17 = Instance.new("Part")
-handle_17.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
-handle_17.BottomSurface = Enum.SurfaceType.Smooth
-handle_17.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.0410919189453, 141.96310424804688), Vector3.new(0, 0, 1), Vector3.new(0, 1, 0), Vector3.new(-1, 0, 0))
-handle_17.Orientation = Vector3.new(0, -90, 0)
-handle_17.Rotation = Vector3.new(0, -90, 0)
-handle_17.Size = Vector3.new(1, 1, 1)
-handle_17.TopSurface = Enum.SurfaceType.Smooth
-handle_17.Size = Vector3.new(1, 1, 1)
-handle_17.Name = "Handle"
-handle_17.Parent = styled_hair
 
 local original_Size_19 = Instance.new("Vector3Value")
 original_Size_19.Value = Vector3.new(1, 1, 1)
