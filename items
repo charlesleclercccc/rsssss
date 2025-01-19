@@ -26,7 +26,7 @@ handle.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.341094970
 handle.Color = Color3.new(0.105882, 0.164706, 0.207843)
 handle.Size = Vector3.new(1, 0.4000000059604645, 1)
 handle.TopSurface = Enum.SurfaceType.Smooth
-handle.size = Vector3.new(1, 0.4000000059604645, 1)
+handle.Size = Vector3.new(1, 0.4000000059604645, 1)
 handle.Name = "Handle"
 handle.Parent = classic_fedora
 
@@ -34,15 +34,15 @@ local touchtransmittertouch_interest = Instance.new("Folder")
 touchtransmittertouch_interest.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest.Parent = handle
 
-local original_size = Instance.new("Vector3Value")
-original_size.Value = Vector3.new(1, 0.4000000059604645, 1)
-original_size.Name = "OriginalSize"
-original_size.Parent = handle
+local original_Size = Instance.new("Vector3Value")
+original_Size.Value = Vector3.new(1, 0.4000000059604645, 1)
+original_Size.Name = "OriginalSize"
+original_Size.Parent = handle
 
-local original_size_2 = Instance.new("Vector3Value")
-original_size_2.Value = Vector3.new(1, 0.4000000059604645, 1)
-original_size_2.Name = "OriginalSize"
-original_size_2.Parent = handle
+local original_Size_2 = Instance.new("Vector3Value")
+original_Size_2.Value = Vector3.new(1, 0.4000000059604645, 1)
+original_Size_2.Name = "OriginalSize"
+original_Size_2.Parent = handle
 
 local hat_attachment = Instance.new("Attachment")
 hat_attachment.CFrame = CFrame.fromMatrix(Vector3.new(8.657480066176504e-09, 0, 0.04972775653004646), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -84,7 +84,7 @@ handle_2.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.2410888
 handle_2.Locked = true
 handle_2.Size = Vector3.new(1.7999999523162842, 1, 2.1999998092651367)
 handle_2.TopSurface = Enum.SurfaceType.Smooth
-handle_2.size = Vector3.new(1.7999999523162842, 1, 2.1999998092651367)
+handle_2.Size = Vector3.new(1.7999999523162842, 1, 2.1999998092651367)
 handle_2.Name = "Handle"
 handle_2.Parent = halloween_fedora
 
@@ -126,14 +126,14 @@ handle_3.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.1410827
 handle_3.Locked = true
 handle_3.Size = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
 handle_3.TopSurface = Enum.SurfaceType.Smooth
-handle_3.size = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
+handle_3.Size = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
 handle_3.Name = "Handle"
 handle_3.Parent = snow_cap
 
-local original_size_3 = Instance.new("Vector3Value")
-original_size_3.Value = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
-original_size_3.Name = "OriginalSize"
-original_size_3.Parent = handle_3
+local original_Size_3 = Instance.new("Vector3Value")
+original_Size_3.Value = Vector3.new(1.7999999523162842, 1.6000001430511475, 1.3999998569488525)
+original_Size_3.Name = "OriginalSize"
+original_Size_3.Parent = handle_3
 
 local hat_attachment_2 = Instance.new("Attachment")
 hat_attachment_2.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.19999980926513672, -0.0002722442150115967), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -172,19 +172,19 @@ handle_4.BottomSurface = Enum.SurfaceType.Smooth
 handle_4.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.2410888671875, 141.96337890625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
 handle_4.Size = Vector3.new(2, 1.2000000476837158, 2)
 handle_4.TopSurface = Enum.SurfaceType.Smooth
-handle_4.size = Vector3.new(2, 1.2000000476837158, 2)
+handle_4.Size = Vector3.new(2, 1.2000000476837158, 2)
 handle_4.Name = "Handle"
 handle_4.Parent = top_hat
 
-local original_size_4 = Instance.new("Vector3Value")
-original_size_4.Value = Vector3.new(2, 1.2000000476837158, 2)
-original_size_4.Name = "OriginalSize"
-original_size_4.Parent = handle_4
+local original_Size_4 = Instance.new("Vector3Value")
+original_Size_4.Value = Vector3.new(2, 1.2000000476837158, 2)
+original_Size_4.Name = "OriginalSize"
+original_Size_4.Parent = handle_4
 
-local original_size_5 = Instance.new("Vector3Value")
-original_size_5.Value = Vector3.new(2, 1.2000000476837158, 2)
-original_size_5.Name = "OriginalSize"
-original_size_5.Parent = handle_4
+local original_Size_5 = Instance.new("Vector3Value")
+original_Size_5.Value = Vector3.new(2, 1.2000000476837158, 2)
+original_Size_5.Name = "OriginalSize"
+original_Size_5.Parent = handle_4
 
 local mesh_4 = Instance.new("SpecialMesh")
 mesh_4.MeshType = Enum.MeshType.FileMesh
@@ -221,19 +221,19 @@ handle_5.Orientation = Vector3.new(14.774999618530273, 0, 0)
 handle_5.Rotation = Vector3.new(14.774999618530273, 0, 0)
 handle_5.Size = Vector3.new(1, 0.800000011920929, 1)
 handle_5.TopSurface = Enum.SurfaceType.Smooth
-handle_5.size = Vector3.new(1, 0.800000011920929, 1)
+handle_5.Size = Vector3.new(1, 0.800000011920929, 1)
 handle_5.Name = "Handle"
 handle_5.Parent = valkyrie
 
-local original_size_6 = Instance.new("Vector3Value")
-original_size_6.Value = Vector3.new(1, 0.800000011920929, 1)
-original_size_6.Name = "OriginalSize"
-original_size_6.Parent = handle_5
+local original_Size_6 = Instance.new("Vector3Value")
+original_Size_6.Value = Vector3.new(1, 0.800000011920929, 1)
+original_Size_6.Name = "OriginalSize"
+original_Size_6.Parent = handle_5
 
-local original_size_7 = Instance.new("Vector3Value")
-original_size_7.Value = Vector3.new(1, 0.800000011920929, 1)
-original_size_7.Name = "OriginalSize"
-original_size_7.Parent = handle_5
+local original_Size_7 = Instance.new("Vector3Value")
+original_Size_7.Value = Vector3.new(1, 0.800000011920929, 1)
+original_Size_7.Name = "OriginalSize"
+original_Size_7.Parent = handle_5
 
 local mesh_5 = Instance.new("SpecialMesh")
 mesh_5.MeshType = Enum.MeshType.FileMesh
@@ -268,7 +268,7 @@ handle_6.Orientation = Vector3.new(8.291999816894531, -90.70700073242188, 0.0010
 handle_6.Rotation = Vector3.new(94.83799743652344, -81.6780014038086, 94.89099884033203)
 handle_6.Size = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
 handle_6.TopSurface = Enum.SurfaceType.Smooth
-handle_6.size = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
+handle_6.Size = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
 handle_6.Name = "Handle"
 handle_6.Parent = beard
 
@@ -276,10 +276,10 @@ local touchtransmittertouch_interest_3 = Instance.new("Folder")
 touchtransmittertouch_interest_3.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_3.Parent = handle_6
 
-local original_size_8 = Instance.new("Vector3Value")
-original_size_8.Value = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
-original_size_8.Name = "OriginalSize"
-original_size_8.Parent = handle_6
+local original_Size_8 = Instance.new("Vector3Value")
+original_Size_8.Value = Vector3.new(1.5999996662139893, 1, 1.0000001192092896)
+original_Size_8.Name = "OriginalSize"
+original_Size_8.Parent = handle_6
 
 local hair_attachment = Instance.new("Attachment")
 hair_attachment.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.999476432800293, -0.010221272706985474), Vector3.new(1, 0, 0), Vector3.new(-0, 0.9950383901596069, -0.09949196875095367), Vector3.new(-0, 0.09949196875095367, 0.9950383901596069))
@@ -327,7 +327,7 @@ handle_7.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.2410888
 handle_7.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
 handle_7.Size = Vector3.new(2, 1, 2)
 handle_7.TopSurface = Enum.SurfaceType.Smooth
-handle_7.size = Vector3.new(2, 1, 2)
+handle_7.Size = Vector3.new(2, 1, 2)
 handle_7.Name = "Handle"
 handle_7.Parent = afro
 
@@ -369,7 +369,7 @@ handle_8.Orientation = Vector3.new(2.621000051498413, 79.2020034790039, -0.00200
 handle_8.Rotation = Vector3.new(13.729000091552734, 78.89199829101562, -13.482999801635742)
 handle_8.Size = Vector3.new(2, 2, 2)
 handle_8.TopSurface = Enum.SurfaceType.Smooth
-handle_8.size = Vector3.new(2, 2, 2)
+handle_8.Size = Vector3.new(2, 2, 2)
 handle_8.Name = "Handle"
 handle_8.Parent = beautiful_hair
 
@@ -377,10 +377,10 @@ local touchtransmittertouch_interest_5 = Instance.new("Folder")
 touchtransmittertouch_interest_5.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_5.Parent = handle_8
 
-local original_size_9 = Instance.new("Vector3Value")
-original_size_9.Value = Vector3.new(2, 2, 2)
-original_size_9.Name = "OriginalSize"
-original_size_9.Parent = handle_8
+local original_Size_9 = Instance.new("Vector3Value")
+original_Size_9.Value = Vector3.new(2, 2, 2)
+original_Size_9.Name = "OriginalSize"
+original_Size_9.Parent = handle_8
 
 local hair_attachment_2 = Instance.new("Attachment")
 hair_attachment_2.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.09999990463256836, -0.0002722442150115967), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -428,14 +428,14 @@ handle_9.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.1660919
 handle_9.Locked = true
 handle_9.Size = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
 handle_9.TopSurface = Enum.SurfaceType.Smooth
-handle_9.size = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
+handle_9.Size = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
 handle_9.Name = "Handle"
 handle_9.Parent = charmer_hair
 
-local original_size_10 = Instance.new("Vector3Value")
-original_size_10.Value = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
-original_size_10.Name = "OriginalSize"
-original_size_10.Parent = handle_9
+local original_Size_10 = Instance.new("Vector3Value")
+original_Size_10.Value = Vector3.new(1.1999995708465576, 1, 1.5999999046325684)
+original_Size_10.Name = "OriginalSize"
+original_Size_10.Parent = handle_9
 
 local hair_attachment_3 = Instance.new("Attachment")
 hair_attachment_3.CFrame = CFrame.fromMatrix(Vector3.new(8.657480066176504e-09, 0.17499971389770508, 0.04972776025533676), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -493,7 +493,7 @@ handle_10.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
 handle_10.Locked = true
 handle_10.Size = Vector3.new(1, 1, 1)
 handle_10.TopSurface = Enum.SurfaceType.Smooth
-handle_10.size = Vector3.new(1, 1, 1)
+handle_10.Size = Vector3.new(1, 1, 1)
 handle_10.Name = "Handle"
 handle_10.Parent = dreads
 
@@ -501,15 +501,15 @@ local touchtransmittertouch_interest_6 = Instance.new("Folder")
 touchtransmittertouch_interest_6.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_6.Parent = handle_10
 
-local original_size_11 = Instance.new("Vector3Value")
-original_size_11.Value = Vector3.new(1, 1, 1)
-original_size_11.Name = "OriginalSize"
-original_size_11.Parent = handle_10
+local original_Size_11 = Instance.new("Vector3Value")
+original_Size_11.Value = Vector3.new(1, 1, 1)
+original_Size_11.Name = "OriginalSize"
+original_Size_11.Parent = handle_10
 
-local original_size_12 = Instance.new("Vector3Value")
-original_size_12.Value = Vector3.new(1, 1, 1)
-original_size_12.Name = "OriginalSize"
-original_size_12.Parent = handle_10
+local original_Size_12 = Instance.new("Vector3Value")
+original_Size_12.Value = Vector3.new(1, 1, 1)
+original_Size_12.Name = "OriginalSize"
+original_Size_12.Parent = handle_10
 
 local hair_attachment_4 = Instance.new("Attachment")
 hair_attachment_4.CFrame = CFrame.fromMatrix(Vector3.new(0.004974365234375, 0.6884424686431885, -0.090728759765625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -563,7 +563,7 @@ handle_11.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
 handle_11.Locked = true
 handle_11.Size = Vector3.new(1, 2.4000000953674316, 2)
 handle_11.TopSurface = Enum.SurfaceType.Smooth
-handle_11.size = Vector3.new(1, 2.4000000953674316, 2)
+handle_11.Size = Vector3.new(1, 2.4000000953674316, 2)
 handle_11.Name = "Handle"
 handle_11.Parent = female_hair
 
@@ -616,14 +616,14 @@ handle_12.AssemblyAngularVelocity = Vector3.new(1, 1, 1)
 handle_12.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 133.5410919189453, 142.96337890625), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
 handle_12.Massless = true
 handle_12.Size = Vector3.new(3, 6.315000057220459, 3.183000087738037)
-handle_12.size = Vector3.new(3, 6.315000057220459, 3.183000087738037)
+handle_12.Size = Vector3.new(3, 6.315000057220459, 3.183000087738037)
 handle_12.Name = "Handle"
 handle_12.Parent = golden_eustacia
 
-local original_size_13 = Instance.new("Vector3Value")
-original_size_13.Value = Vector3.new(3, 6.315000057220459, 3.183000087738037)
-original_size_13.Name = "OriginalSize"
-original_size_13.Parent = handle_12
+local original_Size_13 = Instance.new("Vector3Value")
+original_Size_13.Value = Vector3.new(3, 6.315000057220459, 3.183000087738037)
+original_Size_13.Name = "OriginalSize"
+original_Size_13.Parent = handle_12
 
 local tf = Instance.new("Bone")
 tf.Axis = Vector3.new(0.9999998211860657, 0.0005441414541564882, 0.00027655845042318106)
@@ -1010,7 +1010,7 @@ handle_13.Orientation = Vector3.new(2.315999984741211, -91.99500274658203, 0.002
 handle_13.Rotation = Vector3.new(130.7259979248047, -86.94400024414062, 130.76800537109375)
 handle_13.Size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
 handle_13.TopSurface = Enum.SurfaceType.Smooth
-handle_13.size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
+handle_13.Size = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
 handle_13.Name = "Handle"
 handle_13.Parent = messy_hair
 
@@ -1018,10 +1018,10 @@ local touchtransmittertouch_interest_8 = Instance.new("Folder")
 touchtransmittertouch_interest_8.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_8.Parent = handle_13
 
-local original_size_14 = Instance.new("Vector3Value")
-original_size_14.Value = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
-original_size_14.Name = "OriginalSize"
-original_size_14.Parent = handle_13
+local original_Size_14 = Instance.new("Vector3Value")
+original_Size_14.Value = Vector3.new(0.6000000238418579, 0.800000011920929, 0.6000000238418579)
+original_Size_14.Name = "OriginalSize"
+original_Size_14.Parent = handle_13
 
 local weld = Instance.new("Weld")
 weld.C0 = CFrame.fromMatrix(Vector3.new(0, -0.6221335530281067, 0), Vector3.new(1, 0, 0), Vector3.new(0, 0, 1), Vector3.new(0, -1, 0))
@@ -1082,7 +1082,7 @@ handle_14.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 136.491088
 handle_14.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
 handle_14.Size = Vector3.new(1, 1.2000000476837158, 1)
 handle_14.TopSurface = Enum.SurfaceType.Smooth
-handle_14.size = Vector3.new(1, 1.2000000476837158, 1)
+handle_14.Size = Vector3.new(1, 1.2000000476837158, 1)
 handle_14.Name = "Handle"
 handle_14.Parent = mohawk
 
@@ -1090,15 +1090,15 @@ local touchtransmittertouch_interest_9 = Instance.new("Folder")
 touchtransmittertouch_interest_9.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_9.Parent = handle_14
 
-local original_size_15 = Instance.new("Vector3Value")
-original_size_15.Value = Vector3.new(1, 1.2000000476837158, 1)
-original_size_15.Name = "OriginalSize"
-original_size_15.Parent = handle_14
+local original_Size_15 = Instance.new("Vector3Value")
+original_Size_15.Value = Vector3.new(1, 1.2000000476837158, 1)
+original_Size_15.Name = "OriginalSize"
+original_Size_15.Parent = handle_14
 
-local original_size_16 = Instance.new("Vector3Value")
-original_size_16.Value = Vector3.new(1, 1.2000000476837158, 1)
-original_size_16.Name = "OriginalSize"
-original_size_16.Parent = handle_14
+local original_Size_16 = Instance.new("Vector3Value")
+original_Size_16.Value = Vector3.new(1, 1.2000000476837158, 1)
+original_Size_16.Name = "OriginalSize"
+original_Size_16.Parent = handle_14
 
 local mesh_11 = Instance.new("SpecialMesh")
 mesh_11.MeshType = Enum.MeshType.FileMesh
@@ -1146,7 +1146,7 @@ handle_15.BottomSurface = Enum.SurfaceType.Smooth
 handle_15.CFrame = CFrame.fromMatrix(Vector3.new(-106.09294128417969, 135.8360595703125, 142.08395385742188), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
 handle_15.Size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
 handle_15.TopSurface = Enum.SurfaceType.Smooth
-handle_15.size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
+handle_15.Size = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
 handle_15.Name = "Handle"
 handle_15.Parent = pink_fluffy_hair
 
@@ -1154,10 +1154,10 @@ local touchtransmittertouch_interest_10 = Instance.new("Folder")
 touchtransmittertouch_interest_10.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_10.Parent = handle_15
 
-local original_size_17 = Instance.new("Vector3Value")
-original_size_17.Value = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
-original_size_17.Name = "OriginalSize"
-original_size_17.Parent = handle_15
+local original_Size_17 = Instance.new("Vector3Value")
+original_Size_17.Value = Vector3.new(2.0769999027252197, 1.8300000429153442, 1.7059999704360962)
+original_Size_17.Name = "OriginalSize"
+original_Size_17.Parent = handle_15
 
 local hair_attachment_7 = Instance.new("Attachment")
 hair_attachment_7.CFrame = CFrame.fromMatrix(Vector3.new(0.0035514833871275187, 0.5050263404846191, -0.12085665017366409), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -1205,14 +1205,14 @@ handle_16.BottomSurface = Enum.SurfaceType.Smooth
 handle_16.CFrame = CFrame.fromMatrix(Vector3.new(-106.08729553222656, 136.04893493652344, 142.03192138671875), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
 handle_16.Size = Vector3.new(1, 1, 1)
 handle_16.TopSurface = Enum.SurfaceType.Smooth
-handle_16.size = Vector3.new(1, 1, 1)
+handle_16.Size = Vector3.new(1, 1, 1)
 handle_16.Name = "Handle"
 handle_16.Parent = side_fade
 
-local original_size_18 = Instance.new("Vector3Value")
-original_size_18.Value = Vector3.new(1, 1, 1)
-original_size_18.Name = "OriginalSize"
-original_size_18.Parent = handle_16
+local original_Size_18 = Instance.new("Vector3Value")
+original_Size_18.Value = Vector3.new(1, 1, 1)
+original_Size_18.Name = "OriginalSize"
+original_Size_18.Parent = handle_16
 
 local hair_attachment_8 = Instance.new("Attachment")
 hair_attachment_8.CFrame = CFrame.fromMatrix(Vector3.new(-0.002093195915222168, 0.29215002059936523, -0.068817138671875), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -1277,14 +1277,14 @@ handle_17.Orientation = Vector3.new(0, -90, 0)
 handle_17.Rotation = Vector3.new(0, -90, 0)
 handle_17.Size = Vector3.new(1, 1, 1)
 handle_17.TopSurface = Enum.SurfaceType.Smooth
-handle_17.size = Vector3.new(1, 1, 1)
+handle_17.Size = Vector3.new(1, 1, 1)
 handle_17.Name = "Handle"
 handle_17.Parent = styled_hair
 
-local original_size_19 = Instance.new("Vector3Value")
-original_size_19.Value = Vector3.new(1, 1, 1)
-original_size_19.Name = "OriginalSize"
-original_size_19.Parent = handle_17
+local original_Size_19 = Instance.new("Vector3Value")
+original_Size_19.Value = Vector3.new(1, 1, 1)
+original_Size_19.Name = "OriginalSize"
+original_Size_19.Parent = handle_17
 
 local hair_attachment_9 = Instance.new("Attachment")
 hair_attachment_9.Axis = Vector3.new(0, 0, -1)
@@ -1336,7 +1336,7 @@ handle_18.Orientation = Vector3.new(2.2060000896453857, -77.5479965209961, -0.00
 handle_18.Rotation = Vector3.new(10.130000114440918, -77.35800170898438, 9.88700008392334)
 handle_18.Size = Vector3.new(1, 1, 1)
 handle_18.TopSurface = Enum.SurfaceType.Smooth
-handle_18.size = Vector3.new(1, 1, 1)
+handle_18.Size = Vector3.new(1, 1, 1)
 handle_18.Name = "Handle"
 handle_18.Parent = trecky_hair
 
@@ -1344,10 +1344,10 @@ local touchtransmittertouch_interest_11 = Instance.new("Folder")
 touchtransmittertouch_interest_11.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_11.Parent = handle_18
 
-local original_size_20 = Instance.new("Vector3Value")
-original_size_20.Value = Vector3.new(1, 1, 1)
-original_size_20.Name = "OriginalSize"
-original_size_20.Parent = handle_18
+local original_Size_20 = Instance.new("Vector3Value")
+original_Size_20.Value = Vector3.new(1, 1, 1)
+original_Size_20.Name = "OriginalSize"
+original_Size_20.Parent = handle_18
 
 local hair_attachment_10 = Instance.new("Attachment")
 hair_attachment_10.CFrame = CFrame.fromMatrix(Vector3.new(8.658389560878277e-09, 0.2999997138977051, -0.0002722442150115967), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
@@ -1396,7 +1396,7 @@ handle_19.CFrame = CFrame.fromMatrix(Vector3.new(-106.08938598632812, 135.981094
 handle_19.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
 handle_19.Size = Vector3.new(1, 1.600000023841858, 1)
 handle_19.TopSurface = Enum.SurfaceType.Smooth
-handle_19.size = Vector3.new(1, 1.600000023841858, 1)
+handle_19.Size = Vector3.new(1, 1.600000023841858, 1)
 handle_19.Name = "Handle"
 handle_19.Parent = clockwork_shades
 
@@ -1404,10 +1404,10 @@ local touchtransmittertouch_interest_12 = Instance.new("Folder")
 touchtransmittertouch_interest_12.Name = "[TouchTransmitter] TouchInterest"
 touchtransmittertouch_interest_12.Parent = handle_19
 
-local original_size_21 = Instance.new("Vector3Value")
-original_size_21.Value = Vector3.new(1, 1.600000023841858, 1)
-original_size_21.Name = "OriginalSize"
-original_size_21.Parent = handle_19
+local original_Size_21 = Instance.new("Vector3Value")
+original_Size_21.Value = Vector3.new(1, 1.600000023841858, 1)
+original_Size_21.Name = "OriginalSize"
+original_Size_21.Parent = handle_19
 
 local facefront_attachment = Instance.new("Attachment")
 facefront_attachment.CFrame = CFrame.fromMatrix(Vector3.new(3.9353835745714605e-09, -0.23999977111816406, -0.4502722918987274), Vector3.new(1, 0, 0), Vector3.new(0, 1, 0), Vector3.new(0, 0, 1))
