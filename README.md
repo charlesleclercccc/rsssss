@@ -3,6 +3,8 @@
 
 **to use, execute script below:**
 ```
+getgenv().hascleats = false -- set to true if you have cleats on
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/charlesleclercccc/rsssss/refs/heads/main/script"))()
 ```
 
